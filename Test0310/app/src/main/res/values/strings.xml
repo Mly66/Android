@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">简易计数器</string>
+    <string name="increase_button">增加</string>
+    <string name="decrease_button">减少</string>
+    <string name="count_initial">0</string>
+    <string name="toast_reached_ten">恭喜你达到10!</string>
+    <string name="toast_cannot_be_negative">计数不能小于0!</string>
+</resources>
