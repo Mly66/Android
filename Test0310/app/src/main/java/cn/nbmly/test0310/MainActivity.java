@@ -1,5 +1,6 @@
 package cn.nbmly.test0310;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -17,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
     private Button decreaseButton;
     private int count = 0;
 
+    private Button linkButton;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -26,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         countTextView = findViewById(R.id.countTextView);
         increaseButton = findViewById(R.id.increaseButton);
         decreaseButton = findViewById(R.id.decreaseButton);
+        linkButton = findViewById(R.id.linkButton);
 
         // 设置增加按钮点击事件
         increaseButton.setOnClickListener(new View.OnClickListener() {
@@ -54,36 +59,17 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-    }
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Log.i(TAG, "onResume - Activity 进入前台并交互");//进入app界面
+
+        linkButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, ActivityExample.class);
+                startActivity(intent);
+            }
+        });
     }
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-        Log.i(TAG, "onPause - Activity 失去焦点但仍可见");//进入任务管理界面
-    }
 
-    @Override
-    protected void onStop() {
-        super.onStop();
-        Log.i(TAG, "onStop - Activity 进入后台");//后台挂起
-    }
-
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        Log.i(TAG, "onRestart - Activity 从停止状态重新启动");//从任务管理器启动
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.i(TAG, "onDestroy - Activity 被销毁");//退出app
-    }
 
     // 更新计数显示
     private void updateCountDisplay() {
