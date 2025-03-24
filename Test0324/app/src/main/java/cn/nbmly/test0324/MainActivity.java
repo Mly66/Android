@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     Button bt4;
     Button bt5;
     Button bt6;
+    Button bt7;
     TextView txv1;
 
     @Override
@@ -37,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
         bt4 = findViewById(R.id.button4);
         bt5 = findViewById(R.id.button5);
         bt6 = findViewById(R.id.button6);
+        bt7 = findViewById(R.id.button7);
         txv1 = findViewById(R.id.textView);
         bt1.setOnClickListener(v -> {
                     bt1.setBackgroundColor(0xFFFF0000);
