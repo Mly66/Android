@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -20,7 +21,7 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
     Button button3;
     Button button4;
     int image[] = {R.drawable.test1, R.drawable.test2, R.drawable.test3, R.drawable.test4, R.drawable.test5,
-            R.drawable.test6};
+            R.drawable.test6, R.drawable.test7, R.drawable.test8};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -55,19 +56,20 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         if (v.getId() == R.id.button) {
             imageView.setImageResource(image[0]);
             imageView.setTag(image[0]);
+            Toast.makeText(this, "第一张.....", Toast.LENGTH_SHORT).show();
         } else if (v.getId() == R.id.button2) {
             int prevIndex = (currentIndex - 1 + image.length) % image.length;
             imageView.setImageResource(image[prevIndex]);
-                imageView.setTag(image[prevIndex]);
+            imageView.setTag(image[prevIndex]);
         } else if (v.getId() == R.id.button3) {
 
             int nextIndex = (currentIndex + 1) % image.length;
             imageView.setImageResource(image[nextIndex]);
             imageView.setTag(image[nextIndex]);
         } else if (v.getId() == R.id.button4) {
-
             imageView.setImageResource(image[image.length - 1]);
             imageView.setTag(image[image.length - 1]);
+            Toast.makeText(this, "最后一张.....", Toast.LENGTH_SHORT).show();
         }
     }
 }
