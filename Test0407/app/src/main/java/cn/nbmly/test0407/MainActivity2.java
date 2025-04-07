@@ -1,6 +1,7 @@
 package cn.nbmly.test0407;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -34,7 +35,7 @@ public class MainActivity2 extends AppCompatActivity {
             return insets;
         });
 
-        lv2 = findViewById(R.id.lv2);
+        lv2 = findViewById(R.id.lvgood);
         initData();
 
         lv2.setAdapter(baseAdapter);
@@ -65,7 +66,7 @@ public class MainActivity2 extends AppCompatActivity {
             View view = LayoutInflater.from(MainActivity2.this).inflate(R.layout.list_item2, parent, false);
             ImageView item_img = view.findViewById(R.id.item_img);
             TextView item_text = view.findViewById(R.id.item_text);
-
+            Log.i("TAG", "getView: " + position);
             User user = list.get(position);
             item_img.setImageResource(user.getImgResId());
             item_text.setText(user.getName());
