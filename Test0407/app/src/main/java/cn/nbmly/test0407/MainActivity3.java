@@ -16,6 +16,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -62,14 +63,29 @@ public class MainActivity3 extends AppCompatActivity {
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            View view = LayoutInflater.from(MainActivity3.this).inflate(R.layout.list_item3, parent, false);
-            ImageView item_img = view.findViewById(R.id.item_img);
-            TextView name = view.findViewById(R.id.name);
-            TextView price = view.findViewById(R.id.price);
-            name.setText(list.get(position).getName());
-            price.setText(String.valueOf(list.get(position).getPrice()));
-            item_img.setImageResource(list.get(position).getImgUrl());
-            return view;
+//            View view = LayoutInflater.from(MainActivity3.this).inflate(R.layout.list_item3, parent, false);
+//            ImageView item_img = view.findViewById(R.id.item_img);
+//            TextView name = view.findViewById(R.id.name);
+//            TextView price = view.findViewById(R.id.price);
+//            name.setText(list.get(position).getName());
+//            price.setText(String.valueOf(list.get(position).getPrice()));
+//            item_img.setImageResource(list.get(position).getImgUrl());
+//            return view;
+            ViewHolder holder = null;
+            if (convertView == null) {
+                convertView = View.inflate(MainActivity3.this, R.layout.list_item3, null);
+                holder = new ViewHolder();
+                holder.name = convertView.findViewById(R.id.name);
+                holder.price = convertView.findViewById(R.id.price);
+                holder.iv = convertView.findViewById(R.id.item_img);
+                convertView.setTag(holder);
+            } else {
+                holder = (ViewHolder) convertView.getTag();
+            }
+            holder.name.setText(list.get(position).getName());
+            holder.price.setText(String.valueOf(list.get(position).getPrice()));
+            holder.iv.setImageResource(list.get(position).getImgUrl());
+            return convertView;
         }
     };
 
