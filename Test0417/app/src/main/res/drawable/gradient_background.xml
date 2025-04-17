@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 渐变背景设置 -->
+    <gradient
+        android:startColor="#FF5722"
+        android:centerColor="#E91E63"
+        android:endColor="#9C27B0"
+        android:type="linear"
+        android:angle="45" />
+    
+    <!-- 可选：添加圆角 -->
+    <corners android:radius="0dp" />
+    
+    <!-- 可选：设置大小 -->
+    <size android:width="200dp" android:height="200dp" />
+</shape> 
