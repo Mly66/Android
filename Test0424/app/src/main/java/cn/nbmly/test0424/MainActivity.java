@@ -20,17 +20,15 @@ public class MainActivity extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        MyView myView = findViewById(R.id.my_custom_view);
-        myView.color=0xff2386B6;
-        myView.text="自定义视图";
-        myView.size=24;
-        myView.content="这是一个自定义视图示例";
-        // 设置自定义视图的属性
-        myView.paint.setColor(myView.color);
-        myView.paint.setTextSize(myView.size);
-        // 重新绘制视图
-        myView.invalidate();
 
+        // 获取自定义视图
+        MyView myView = findViewById(R.id.my_custom_view);
+
+        // 使用setter方法设置属性
+        myView.setColor(0xff2386B6);
+        myView.setText("自定义视图");
+        myView.setTextSize(24);
+        myView.setContent("这是一个自定义视图示例");
 
     }
 }

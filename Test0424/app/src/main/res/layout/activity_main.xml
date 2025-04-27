@@ -15,7 +15,7 @@
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_margin="12dp"
-        android:background="#2386B6"
+        android:background="#E91E63"
         android:elevation="4dp"
         app:my_text="自定义视图"
         app:my_color="#3F51B5"
