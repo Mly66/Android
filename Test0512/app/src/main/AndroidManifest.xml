@@ -13,6 +13,16 @@
         android:theme="@style/Theme.Test0512"
         tools:targetApi="31">
         <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+            <intent-fileter>
+                <action android:name="cn.nbmly.test0512.SHOW_CITY" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http"
+                    android:host="www.nbmly.cn"  android:port="8080" android:path="/nb"/>
+            </intent-fileter>
+        <activity
             android:name=".MainActivity4"
             android:exported="false" />
         <activity

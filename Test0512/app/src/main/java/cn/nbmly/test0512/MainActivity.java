@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int REGISTER_REQUEST_CODE = 1;
     private EditText etUsername, etPassword;
     private Button btnLogin, btnRegister, btnExit, btnCity;
+    private TextView tvTitle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,10 +32,11 @@ public class MainActivity extends AppCompatActivity {
 
         etUsername = findViewById(R.id.etUsername);
         etPassword = findViewById(R.id.etPassword);
-        btnLogin    = findViewById(R.id.btnLogin);
+        btnLogin = findViewById(R.id.btnLogin);
         btnRegister = findViewById(R.id.btnRegister);
-        btnExit     = findViewById(R.id.btnExit);
-        btnCity     = findViewById(R.id.btnCity);
+        btnExit = findViewById(R.id.btnExit);
+        btnCity = findViewById(R.id.btnCity);
+        tvTitle = findViewById(R.id.tvTitle);
 
         btnLogin.setOnClickListener(v -> {
             Intent intent = new Intent(this, MainActivity3.class);
@@ -45,7 +48,11 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, MainActivity2.class);
             startActivityForResult(intent, REGISTER_REQUEST_CODE);
         });
-        btnExit.setOnClickListener(v -> finish());
+//        btnExit.setOnClickListener(v -> finish());
+        btnExit.setOnClickListener(v -> {
+            Intent intent = new Intent(this, MainActivity5.class);
+            startActivityForResult(intent, REGISTER_REQUEST_CODE);
+        });
         btnCity.setOnClickListener(v -> {
             Intent intent = new Intent(this, MainActivity4.class);
             startActivityForResult(intent, REGISTER_REQUEST_CODE);
@@ -60,6 +67,7 @@ public class MainActivity extends AppCompatActivity {
                 && data != null) {
             etUsername.setText(data.getStringExtra("username"));
             String city = data.getStringExtra("selectedCity");
+            tvTitle.setText(city);
             Toast.makeText(this, city, Toast.LENGTH_SHORT).show();
         }
     }
