@@ -43,6 +43,8 @@ public class MainActivity2 extends AppCompatActivity {
         cb_remember_password = findViewById(R.id.cb_remember_password);
         initData();
         btn_write.setOnClickListener(v -> {
+            boolean remember_username = cb_remember_username.isChecked();
+            boolean remember_password = cb_remember_password.isChecked();
             String username = et_username.getText().toString();
             String password = et_password.getText().toString();
             if (!cb_remember_username.isChecked()) {
@@ -56,6 +58,8 @@ public class MainActivity2 extends AppCompatActivity {
             SharedPreferences.Editor editor = sp.edit();
             editor.putString("username", username);
             editor.putString("password", password);
+            editor.putBoolean("remember_username", remember_username);
+            editor.putBoolean("remember_password", remember_password);
             editor.apply();
             Toast.makeText(this, "写入成功", Toast.LENGTH_SHORT).show();
         });
@@ -82,6 +86,9 @@ public class MainActivity2 extends AppCompatActivity {
         SharedPreferences sp = getSharedPreferences("data", MODE_PRIVATE);
         et_username.setText(sp.getString("username", ""));
         et_password.setText(sp.getString("password", ""));
+        cb_remember_username.setChecked(sp.getBoolean("remember_username", false));
+        cb_remember_password.setChecked(sp.getBoolean("remember_password", false));
+
 
 
     }
