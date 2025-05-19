@@ -33,4 +33,17 @@
         android:layout_margin="16dp"
         tools:ignore="OnClick" />
 
+    <!-- 显示通知按钮 -->
+    <Button
+        android:id="@+id/btn_show_notification"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="显示通知"
+        android:onClick="onShowNotificationClicked"
+        app:layout_constraintTop_toBottomOf="@id/btn_dial_phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="16dp"
+        tools:ignore="OnClick" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
