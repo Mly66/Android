@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- 标题 -->
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="数据演示"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- 账号输入 -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_username"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="账号"
+        app:layout_constraintTop_toBottomOf="@id/tv_title"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- 密码输入 -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_password"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="密码"
+        app:passwordToggleEnabled="true"
+        app:layout_constraintTop_toBottomOf="@id/layout_username"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- 写入按钮 -->
+    <Button
+        android:id="@+id/btn_write"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="写入"
+        app:layout_constraintTop_toBottomOf="@id/layout_password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btn_read"
+        app:layout_constraintHorizontal_weight="1"
+        android:layout_marginTop="24dp"/>
+
+    <!-- 读取按钮 -->
+    <Button
+        android:id="@+id/btn_read"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="读取"
+        app:layout_constraintTop_toBottomOf="@id/layout_password"
+        app:layout_constraintStart_toEndOf="@id/btn_write"
+        app:layout_constraintEnd_toStartOf="@id/btn_delete"
+        app:layout_constraintHorizontal_weight="1"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="8dp"/>
+
+    <!-- 删除按钮 -->
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="删除"
+        app:layout_constraintTop_toBottomOf="@id/layout_password"
+        app:layout_constraintStart_toEndOf="@id/btn_read"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_weight="1"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="8dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
