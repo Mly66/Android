@@ -5,9 +5,12 @@ import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.BitmapFactory;
 import android.os.Build;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -17,13 +20,13 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import org.jetbrains.annotations.NotNull;
+
 public class MainActivity extends AppCompatActivity {
     private Button sendMessage;
     NotificationManager manager;
-    String cid1 ="ch01";
-    NotificationCompat.Builder builder ;
-
-
+    String cid1 = "ch01";
+    NotificationCompat.Builder builder;
 
 
     @Override
@@ -37,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
         sendMessage = findViewById(R.id.sendMessage);
+        initData();
         sendMessage.setOnClickListener(v -> {
             manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -50,7 +54,7 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(this, MainActivity2.class);
             intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
             PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
-            String Text= "k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡";
+            String Text = "k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡";
             builder
                     .setContentTitle("大儿，又来装逼(▼へ▼メ)了")
                     .setContentText("k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡k毛鸡")
@@ -64,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
                     .setStyle(new NotificationCompat.BigTextStyle())
                     .setContentIntent(pendingIntent)  // 点击通知主体时触发
                     .setAutoCancel(true)                     // 点击主体后自动消失
-                    .addAction(R.drawable.icon1,"nb",pendingIntent);
+                    .addAction(R.drawable.icon1, "nb", pendingIntent);
 //                    .setContentIntent(pendingIntent)  // 点击跳转
 
 
@@ -72,5 +76,38 @@ public class MainActivity extends AppCompatActivity {
             manager.notify(100, notification);
         });
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NotNull MenuItem item) {
+        int fontsize = 0;
+        SharedPreferences sp = getSharedPreferences("fsize", MODE_PRIVATE);
+        SharedPreferences.Editor editor = sp.edit();
+
+        if (item.getItemId() == R.id.fsmall) {
+            fontsize = 12;
+
+        } else if (item.getItemId() == R.id.fmiddle) {
+            fontsize = 16;
+
+        } else if (item.getItemId() == R.id.fbig) {
+            fontsize = 20;
+
+        }
+        editor.putInt("fontsize", fontsize);
+        editor.apply();
+        sendMessage.setTextSize(fontsize);
+        return super.onOptionsItemSelected(item);
+    }
+    public void initData(){
+        SharedPreferences sp = getSharedPreferences("fsize", MODE_PRIVATE);
+        int fontsize = sp.getInt("fontsize", 16);
+        sendMessage.setTextSize(fontsize);
     }
 }

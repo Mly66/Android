@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fsmall"
+        android:title="小号字" />
+    <item
+        android:id="@+id/fmiddle"
+        android:title="中号字" />
+    <item
+        android:id="@+id/fbig"
+        android:title="大号字" />
+</menu>
