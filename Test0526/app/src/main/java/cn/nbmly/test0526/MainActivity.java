@@ -1,5 +1,6 @@
 package cn.nbmly.test0526;
 
+import android.annotation.SuppressLint;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -165,7 +166,6 @@ public class MainActivity extends AppCompatActivity {
                         tvQueryResult.setText("未找到用户");
                     }
                 } else {
-                    // 如果没有输入ID，查询所有用户
                     displayAllUsers();
                 }
             } catch (Exception e) {
@@ -231,18 +231,29 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    @SuppressLint("DefaultLocale")
     private void displayAllUsers() {
         List<User> users = userDao.getAllUsers();
         if (users.isEmpty()) {
             tvQueryResult.setText("没有用户数据");
         } else {
-            StringBuilder result = new StringBuilder("所有用户：\n");
+            StringBuilder result = new StringBuilder();
+            result.append("所有用户：\n\n");
+            result.append(String.format("%-5s %-10s %-5s %-20s\n", "ID", "姓名", "年龄", "邮箱"));
+            result.append("------------------------------------------------------\n");
             for (User user : users) {
-                result.append(user.toString()).append("\n");
+                result.append(String.format(
+                        "%-5d %-10s %-5d %-20s\n",
+                        user.getId(),
+                        user.getName(),
+                        user.getAge(),
+                        user.getEmail()
+                ));
             }
             tvQueryResult.setText(result.toString());
         }
     }
+
 
     @Override
     protected void onDestroy() {
