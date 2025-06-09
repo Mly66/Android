@@ -16,7 +16,11 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.TimeZone;
+import java.util.function.Function;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -68,11 +72,16 @@ public class MainActivity extends AppCompatActivity {
         public void onReceive(Context context, Intent intent) {
             if ("cn.nbmly.MY_BROADCAST".equals(intent.getAction())) {
                 String message = intent.getStringExtra("msg");
-                String broadcastInfo = "接收时间: " + System.currentTimeMillis() + ", 内容: " + message;
+                String broadcastInfo = "接收时间: " + timestampToDateStr.apply(System.currentTimeMillis()) + ", 内容: " + message;
                 broadcastHistory.add(broadcastInfo);
                 historyAdapter.notifyDataSetChanged();
                 Toast.makeText(context, "收到广播: " + message, Toast.LENGTH_SHORT).show();
             }
         }
     }
+    Function<Long, String> timestampToDateStr = timestamp -> {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        sdf.setTimeZone(TimeZone.getTimeZone("Asia/Shanghai")); // 设置为东八区
+        return sdf.format(new Date(timestamp));
+    };
 }

@@ -16,7 +16,11 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
+import java.util.TimeZone;
+import java.util.function.Function;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -85,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
 
         btnSend.setOnClickListener(v -> {
             String text = editText.getText().toString();
-            String message = "发送时间: " + System.currentTimeMillis() + ", 内容: " + text;
+            String message = "发送时间: " + timestampToDateStr.apply(System.currentTimeMillis()) + ", 内容: " + text;
             broadcastHistory.add(message);
             Intent intent = new Intent("cn.nbmly.MY_BROADCAST");
             intent.putExtra("msg", text);
@@ -107,6 +111,11 @@ public class MainActivity extends AppCompatActivity {
         unregisterReceiver(middlePriorityReceiver);
         unregisterReceiver(lowPriorityReceiver);
     }
+    Function<Long, String> timestampToDateStr = timestamp -> {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        sdf.setTimeZone(TimeZone.getTimeZone("Asia/Shanghai"));
+        return sdf.format(new Date(timestamp));
+    };
 
     class HighPriorityReceiver extends BroadcastReceiver {
         @Override
