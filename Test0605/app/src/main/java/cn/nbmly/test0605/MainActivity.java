@@ -16,6 +16,8 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
 
     private MyReceiver receiver;
@@ -29,6 +31,9 @@ public class MainActivity extends AppCompatActivity {
     private HighPriorityReceiver highPriorityReceiver;
     private MiddlePriorityReceiver middlePriorityReceiver;
     private LowPriorityReceiver lowPriorityReceiver;
+
+    private Button btnViewHistory;
+    private ArrayList<String> broadcastHistory = new ArrayList<>();
 
     @SuppressLint("UnspecifiedRegisterReceiverFlag")
     @Override
@@ -49,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
         tvHighPriority = findViewById(R.id.tvHighPriority);
         tvMiddlePriority = findViewById(R.id.tvMiddlePriority);
         tvLowPriority = findViewById(R.id.tvLowPriority);
+        btnViewHistory = findViewById(R.id.btnViewHistory);
 
         // 初始化并注册广播接收器
         receiver = new MyReceiver(tvMessage);
@@ -79,9 +85,17 @@ public class MainActivity extends AppCompatActivity {
 
         btnSend.setOnClickListener(v -> {
             String text = editText.getText().toString();
+            String message = "发送时间: " + System.currentTimeMillis() + ", 内容: " + text;
+            broadcastHistory.add(message);
             Intent intent = new Intent("cn.nbmly.MY_BROADCAST");
             intent.putExtra("msg", text);
             sendOrderedBroadcast(intent, null); // 使用有序广播
+        });
+
+        btnViewHistory.setOnClickListener(v -> {
+            Intent historyIntent = new Intent(MainActivity.this, BroadcastHistoryActivity.class);
+            historyIntent.putStringArrayListExtra("history", broadcastHistory);
+            startActivity(historyIntent);
         });
     }
 
