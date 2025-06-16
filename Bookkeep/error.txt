@@ -1,0 +1,142 @@
+---------------------------- PROCESS STARTED (6424) for package cn.nbmly.bookkeep ----------------------------
+2025-06-16 11:25:23.047  1798-6244  ndroid.systemu          com.android.systemui                 E  Failed to open APK '/data/app/cn.nbmly.bookkeep-TySybKR6s3AnlYldeSF3bw==/base.apk' I/O error
+2025-06-16 11:25:23.047  1798-6244  ResourcesManager        com.android.systemui                 E  failed to add asset path /data/app/cn.nbmly.bookkeep-TySybKR6s3AnlYldeSF3bw==/base.apk
+2025-06-16 11:25:23.047  1798-6244  ndroid.systemu          com.android.systemui                 E  Failed to open APK '/data/app/cn.nbmly.bookkeep-TySybKR6s3AnlYldeSF3bw==/base.apk' I/O error
+2025-06-16 11:25:23.047  1798-6244  ResourcesManager        com.android.systemui                 E  failed to add asset path /data/app/cn.nbmly.bookkeep-TySybKR6s3AnlYldeSF3bw==/base.apk
+2025-06-16 11:25:23.047  1798-6244  ndroid.systemu          com.android.systemui                 E  Failed to open APK '/data/app/cn.nbmly.bookkeep-TySybKR6s3AnlYldeSF3bw==/base.apk' I/O error
+2025-06-16 11:25:23.047  1798-6244  ResourcesManager        com.android.systemui                 E  failed to add asset path /data/app/cn.nbmly.bookkeep-TySybKR6s3AnlYldeSF3bw==/base.apk
+2025-06-16 11:25:23.210  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/os/Trace;->TRACE_TAG_APP:J (light greylist, reflection)
+2025-06-16 11:25:23.210  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
+2025-06-16 11:25:23.248  6424-6424  AppCompatDelegate       cn.nbmly.bookkeep                    D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2025-06-16 11:25:23.265  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+2025-06-16 11:25:23.266  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+2025-06-16 11:25:23.266  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+2025-06-16 11:25:23.266  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+2025-06-16 11:25:23.299  6424-6433  System                  cn.nbmly.bookkeep                    W  A resource failed to call close. 
+2025-06-16 11:25:23.308  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+2025-06-16 11:25:23.374  6424-6424  OpenGLRenderer          cn.nbmly.bookkeep                    D  Skia GL Pipeline
+2025-06-16 11:25:23.419  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (light greylist, reflection)
+2025-06-16 11:25:23.419  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (light greylist, reflection)
+2025-06-16 11:25:23.419  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/os/Trace;->traceCounter(JLjava/lang/String;I)V (light greylist, reflection)
+2025-06-16 11:25:23.424  6424-6451  HostConnection          cn.nbmly.bookkeep                    I  HostConnection::HostConnection: pid=6424, tid=6451, this=0x7fff6c049540
+2025-06-16 11:25:23.425  6424-6451  <no-tag>                cn.nbmly.bookkeep                    I  fastpipe: Connect success
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    D  HostRPC::connect sucess: app=cn.nbmly.bookkeep, pid=6424, tid=6451, this=0x7fff6c0e1580
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.ncsoft.lineagen gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.vng.thiennhaiminhnguyetdaovng gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.proximabeta.tdm.kr gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.proximabeta.tdm.kr.cloud gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.proximabeta.tdm.kr.onestore gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.tencent.tmgp.wuxia gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.qqsy.gundam.ld gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.qqsy.gundam gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.gravity.cute.tw.testand gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.cayenne.gvl gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.netmarble.tskgb gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.longe.racehmt gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.gvi.robegins.aos gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.studiocodedragon.projectss gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.jingxiu.hygd gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.playwith.nsealm.tw.googl gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.playwith.sealm.kr.googl gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.gravity.cute.tw.and gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.forgefun.redcovenant gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.silkroad.mb gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.vortexgravity.bealive.ld gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.com2usholdings.soulstrike.android.google.global.normal gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.cobby.lonelysurvivor gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.cmge.ltqrc gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.cmge.ltqrc.ld gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.seasun.jxqy0.jsgf.xsj gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.seasun.jxqy0.huawei gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.mobigame.tt12 gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.kaneten.client.and gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.playwith.rohan2.kr gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.linecorp.LGATF gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.atknsyl.weaponmaster gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.blizzard.diablo.immortal gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.netease.dfjssea gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.netease.dfjsjp gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.netease.dfjskr gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! jp.co.applibot.chiikawapocketgl gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! jp.co.applibot.chiikawapocket gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.kakaogames.pcr gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.kakaogames.eversoul gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.kakaogames.eversouljp gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.ntrance.dkr.and gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.zlongame.eversoul gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.Chillgaming.oneState gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.activision.callofduty.shooter gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.garena.game.codm gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.vng.codmvn gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.VIIBYTE.RivalisAcademiaNexus gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.qjsjqy.ld gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.dragonli.projectsnow gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.netmarble.kofafk gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.greenmushroom.boomblitz.gp gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.hermes.p6gameos gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.crystal.usad gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.jingxiu.yanwu gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.playhardlab.heroes gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.topgamestudio.americanblocksnipersurvival.jf gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! vng.games.gs1.phongthan.mobile.com gl
+2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    D  queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:cn.nbmly.bookkeep
+2025-06-16 11:25:23.427  6424-6451  <no-tag>                cn.nbmly.bookkeep                    I  fastpipe: Connect success
+2025-06-16 11:25:23.427  6424-6451  HostConnection          cn.nbmly.bookkeep                    D  recv ProcessPuidReply name=cn.nbmly.bookkeep puid=33 g_u64CapsFlag=1d
+2025-06-16 11:25:23.429  6424-6451  ConfigStore             cn.nbmly.bookkeep                    I  android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2025-06-16 11:25:23.429  6424-6451  ConfigStore             cn.nbmly.bookkeep                    I  android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+2025-06-16 11:25:23.429  6424-6451  OpenGLRenderer          cn.nbmly.bookkeep                    I  Initialized EGL, version 1.4
+2025-06-16 11:25:23.429  6424-6451  OpenGLRenderer          cn.nbmly.bookkeep                    D  Swap behavior 1
+2025-06-16 11:25:23.429  6424-6451  EGL_adreno              cn.nbmly.bookkeep                    I  eglCreateContext request GLES major-version=2
+2025-06-16 11:25:23.438  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/FontFamily;-><init>()V (light greylist, reflection)
+2025-06-16 11:25:23.438  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/FontFamily;->addFontFromAssetManager(Landroid/content/res/AssetManager;Ljava/lang/String;IZIII[Landroid/graphics/fonts/FontVariationAxis;)Z (light greylist, reflection)
+2025-06-16 11:25:23.438  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/FontFamily;->addFontFromBuffer(Ljava/nio/ByteBuffer;I[Landroid/graphics/fonts/FontVariationAxis;II)Z (light greylist, reflection)
+2025-06-16 11:25:23.438  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/FontFamily;->freeze()Z (light greylist, reflection)
+2025-06-16 11:25:23.438  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/FontFamily;->abortCreation()V (light greylist, reflection)
+2025-06-16 11:25:23.438  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/Typeface;->createFromFamiliesWithDefault([Landroid/graphics/FontFamily;Ljava/lang/String;II)Landroid/graphics/Typeface; (light greylist, reflection)
+2025-06-16 11:25:23.439  6424-6451  EGL_adreno              cn.nbmly.bookkeep                    D  eglCreateContext: 0x7fff6c073940: maj 3 min 1 rcv 4
+2025-06-16 11:25:23.464  6424-6451  EGL_adreno              cn.nbmly.bookkeep                    D  eglMakeCurrent: 0x7fff6c073940: ver 3 1 (tinfo 0x7fff6c0c4040)
+2025-06-16 11:25:23.467  6424-6451  HostConnection          cn.nbmly.bookkeep                    D  ExtendedRCEncoderContext GL_VERSION return OpenGL ES 3.1
+2025-06-16 11:25:23.469  6424-6451  eglCodecCommon          cn.nbmly.bookkeep                    E  glUtilsParamSize: unknow param 0x00008c29
+2025-06-16 11:25:23.469  6424-6451  GLESv2_enc              cn.nbmly.bookkeep                    W  no support GL_NUM_PROGRAM_BINARY_FORMATS
+2025-06-16 11:25:23.475  6424-6451  vndksupport             cn.nbmly.bookkeep                    D  Loading /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+2025-06-16 11:25:23.475  6424-6451  vndksupport             cn.nbmly.bookkeep                    D  Loading /vendor/lib64/hw/gralloc.default.so from current namespace instead of sphal namespace.
+2025-06-16 11:25:23.481  6424-6451  EGL_adreno              cn.nbmly.bookkeep                    E  tid 6451: eglSurfaceAttrib(1346): error 0x3009 (EGL_BAD_MATCH)
+2025-06-16 11:25:23.481  6424-6451  OpenGLRenderer          cn.nbmly.bookkeep                    W  Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fff57c7d000, error=EGL_BAD_MATCH
+2025-06-16 11:25:23.491  6424-6451  EGL_adreno              cn.nbmly.bookkeep                    D  eglMakeCurrent: 0x7fff6c073940: ver 3 1 (tinfo 0x7fff6c0c4040)
+2025-06-16 11:25:25.387  6424-6424  ActivityThread          cn.nbmly.bookkeep                    W  handleWindowVisibility: no activity for token android.os.BinderProxy@8f44494
+2025-06-16 11:25:25.423  6424-6424  AndroidRuntime          cn.nbmly.bookkeep                    D  Shutting down VM
+2025-06-16 11:25:25.424  6424-6424  AndroidRuntime          cn.nbmly.bookkeep                    E  FATAL EXCEPTION: main (Ask Gemini)
+                                                                                                    Process: cn.nbmly.bookkeep, PID: 6424
+                                                                                                    java.lang.RuntimeException: Unable to start activity ComponentInfo{cn.nbmly.bookkeep/cn.nbmly.bookkeep.activities.BillDetailActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Spinner.setAdapter(android.widget.SpinnerAdapter)' on a null object reference
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2958)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3093)
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:78)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:108)
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:68)
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1823)
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
+                                                                                                    	at android.os.Looper.loop(Looper.java:193)
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:6840)
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:860)
+                                                                                                    Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Spinner.setAdapter(android.widget.SpinnerAdapter)' on a null object reference
+                                                                                                    	at cn.nbmly.bookkeep.activities.BillDetailActivity.setupSpinners(BillDetailActivity.java:99)
+                                                                                                    	at cn.nbmly.bookkeep.activities.BillDetailActivity.onCreate(BillDetailActivity.java:55)
+                                                                                                    	at android.app.Activity.performCreate(Activity.java:7144)
+                                                                                                    	at android.app.Activity.performCreate(Activity.java:7135)
+                                                                                                    	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1271)
+                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2938)
+                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3093) 
+                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:78) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:108) 
+                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:68) 
+                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1823) 
+                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106) 
+                                                                                                    	at android.os.Looper.loop(Looper.java:193) 
+                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:6840) 
+                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
+                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493) 
+                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:860) 
+---------------------------- PROCESS ENDED (6424) for package cn.nbmly.bookkeep ----------------------------
+2025-06-16 11:25:26.015  1644-1733  InputDispatcher         system_server                        E  channel '608e269 cn.nbmly.bookkeep/cn.nbmly.bookkeep.activities.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!

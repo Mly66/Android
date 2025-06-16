@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shop</string>
+    <string name="title_home">首页</string>
+    <string name="title_cart">购物车</string>
+    <string name="title_user">我的</string>
+</resources>

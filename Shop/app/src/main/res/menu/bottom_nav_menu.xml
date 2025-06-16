@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/ic_home"
+        android:title="首页" />
+
+    <item
+        android:id="@+id/cartFragment"
+        android:icon="@drawable/ic_cart"
+        android:title="购物车" />
+
+    <item
+        android:id="@+id/orderHistoryFragment"
+        android:icon="@drawable/ic_order"
+        android:title="订单" />
+
+    <item
+        android:id="@+id/userCenterFragment"
+        android:icon="@drawable/ic_user"
+        android:title="我的" />
+</menu> 

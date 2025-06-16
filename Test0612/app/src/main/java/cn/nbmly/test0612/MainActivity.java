@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(this, CalculateService.class);
                 bindService(intent, connection, Context.BIND_AUTO_CREATE);
             }
-            firstNumber = 5; // 示例数字
+            firstNumber = 5; 
             currentOperation = "add";
             tvResult.setText("当前运算：加法\n第一个数：" + firstNumber + "\n请点击运算按钮进行 5 + 3 的计算");
         });
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(this, CalculateService.class);
                 bindService(intent, connection, Context.BIND_AUTO_CREATE);
             }
-            firstNumber = 5; // 示例数字
+            firstNumber = 5; 
             currentOperation = "sub";
             tvResult.setText("当前运算：减法\n第一个数：" + firstNumber + "\n请点击运算按钮进行 5 - 3 的计算");
         });
@@ -77,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(this, CalculateService.class);
                 bindService(intent, connection, Context.BIND_AUTO_CREATE);
             }
-            firstNumber = 5; // 示例数字
+            firstNumber = 5; 
             currentOperation = "mul";
             tvResult.setText("当前运算：乘法\n第一个数：" + firstNumber + "\n请点击运算按钮进行 5 × 3 的计算");
         });
@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent(this, CalculateService.class);
                 bindService(intent, connection, Context.BIND_AUTO_CREATE);
             }
-            firstNumber = 5; // 示例数字
+            firstNumber = 5; 
             currentOperation = "div";
             tvResult.setText("当前运算：除法\n第一个数：" + firstNumber + "\n请点击运算按钮进行 5 ÷ 3 的计算");
         });
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         // 运算按钮点击事件
         btnCalculate.setOnClickListener(v -> {
             if (isBound && calculateService != null) {
-                int secondNumber = 3; // 示例数字
+                int secondNumber = 3; 
                 int result = 0;
                 String operationSymbol = "";
 
