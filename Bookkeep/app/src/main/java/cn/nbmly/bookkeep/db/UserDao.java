@@ -35,30 +35,76 @@ public class UserDao {
         return database.insert(DatabaseHelper.TABLE_USERS, null, values);
     }
 
-    public User getUserByUsername(String username) {
+    public int updateUser(User user) {
+        ContentValues values = new ContentValues();
+        values.put(DatabaseHelper.COLUMN_PASSWORD, user.getPassword());
+        values.put(DatabaseHelper.COLUMN_EMAIL, user.getEmail());
+        values.put(DatabaseHelper.COLUMN_UPDATE_TIME, new Date().getTime());
+
+        return database.update(
+                DatabaseHelper.TABLE_USERS,
+                values,
+                DatabaseHelper.COLUMN_ID + " = ?",
+                new String[] { String.valueOf(user.getId()) });
+    }
+
+    public User getUserById(int userId) {
         Cursor cursor = database.query(
                 DatabaseHelper.TABLE_USERS,
-                new String[]{
-                    DatabaseHelper.COLUMN_ID,
-                    DatabaseHelper.COLUMN_USERNAME,
-                    DatabaseHelper.COLUMN_PASSWORD,
-                    DatabaseHelper.COLUMN_CREATE_TIME,
-                    DatabaseHelper.COLUMN_UPDATE_TIME
+                new String[] {
+                        DatabaseHelper.COLUMN_ID,
+                        DatabaseHelper.COLUMN_USERNAME,
+                        DatabaseHelper.COLUMN_PASSWORD,
+                        DatabaseHelper.COLUMN_EMAIL,
+                        DatabaseHelper.COLUMN_CREATE_TIME,
+                        DatabaseHelper.COLUMN_UPDATE_TIME
                 },
-                DatabaseHelper.COLUMN_USERNAME + " = ?",
-                new String[]{username},
-                null, null, null
-        );
+                DatabaseHelper.COLUMN_ID + " = ?",
+                new String[] { String.valueOf(userId) },
+                null, null, null);
 
         User user = null;
         if (cursor != null && cursor.moveToFirst()) {
             user = new User(
                     cursor.getInt(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_ID)),
                     cursor.getString(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_USERNAME)),
-                    cursor.getString(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_PASSWORD))
-            );
-            user.setCreateTime(new Date(cursor.getLong(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_CREATE_TIME))));
-            user.setUpdateTime(new Date(cursor.getLong(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_UPDATE_TIME))));
+                    cursor.getString(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_PASSWORD)));
+            user.setEmail(cursor.getString(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_EMAIL)));
+            user.setCreateTime(
+                    new Date(cursor.getLong(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_CREATE_TIME))));
+            user.setUpdateTime(
+                    new Date(cursor.getLong(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_UPDATE_TIME))));
+            cursor.close();
+        }
+        return user;
+    }
+
+    public User getUserByUsername(String username) {
+        Cursor cursor = database.query(
+                DatabaseHelper.TABLE_USERS,
+                new String[] {
+                        DatabaseHelper.COLUMN_ID,
+                        DatabaseHelper.COLUMN_USERNAME,
+                        DatabaseHelper.COLUMN_PASSWORD,
+                        DatabaseHelper.COLUMN_EMAIL,
+                        DatabaseHelper.COLUMN_CREATE_TIME,
+                        DatabaseHelper.COLUMN_UPDATE_TIME
+                },
+                DatabaseHelper.COLUMN_USERNAME + " = ?",
+                new String[] { username },
+                null, null, null);
+
+        User user = null;
+        if (cursor != null && cursor.moveToFirst()) {
+            user = new User(
+                    cursor.getInt(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_ID)),
+                    cursor.getString(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_USERNAME)),
+                    cursor.getString(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_PASSWORD)));
+            user.setEmail(cursor.getString(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_EMAIL)));
+            user.setCreateTime(
+                    new Date(cursor.getLong(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_CREATE_TIME))));
+            user.setUpdateTime(
+                    new Date(cursor.getLong(cursor.getColumnIndexOrThrow(DatabaseHelper.COLUMN_UPDATE_TIME))));
             cursor.close();
         }
         return user;
@@ -74,4 +120,3 @@ public class UserDao {
         return user != null ? user.getId() : -1;
     }
 }
-

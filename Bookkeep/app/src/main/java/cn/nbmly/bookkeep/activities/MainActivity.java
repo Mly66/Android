@@ -37,6 +37,7 @@ import cn.nbmly.bookkeep.fragments.AboutFragment;
 import cn.nbmly.bookkeep.fragments.ProfileFragment;
 import cn.nbmly.bookkeep.models.Bill;
 import cn.nbmly.bookkeep.models.User;
+import cn.nbmly.bookkeep.services.NotificationService;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -53,6 +54,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        // 创建通知频道
+        NotificationService.createNotificationChannels(this);
 
         // 初始化 ActivityResultLauncher
         addBillLauncher = registerForActivityResult(
@@ -159,8 +163,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     }
 
     private void updateNavHeader() {
-        if (userDao == null) return;
-        
+        if (userDao == null)
+            return;
+
         NavigationView navigationView = findViewById(R.id.nav_view);
         View headerView = navigationView.getHeaderView(0);
         TextView tvName = headerView.findViewById(R.id.nav_header_name);
@@ -183,24 +188,35 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
-        Fragment fragment = null;
+        Fragment selectedFragment = null;
 
-        if (id == R.id.nav_profile) {
-            fragment = new ProfileFragment();
-        } else if (id == R.id.nav_bills) {
-            // 显示账单列表
+        androidx.fragment.app.FragmentManager fragmentManager = getSupportFragmentManager();
+        Fragment currentFragment = fragmentManager.findFragmentById(R.id.fragment_container);
+
+        if (id == R.id.nav_home) {
+            if (currentFragment != null) {
+                fragmentManager.beginTransaction().remove(currentFragment).commit();
+            }
             recyclerView.setVisibility(View.VISIBLE);
             refreshBillList();
+        } else if (id == R.id.nav_profile) {
+            selectedFragment = new ProfileFragment();
         } else if (id == R.id.nav_statistics) {
             startActivity(new Intent(this, StatisticsActivity.class));
+            drawer.closeDrawer(GravityCompat.START);
+            return true;
+        } else if (id == R.id.nav_notifications) {
+            startActivity(new Intent(this, NotificationSettingsActivity.class));
+            drawer.closeDrawer(GravityCompat.START);
+            return true;
         } else if (id == R.id.nav_about) {
-            fragment = new AboutFragment();
+            selectedFragment = new AboutFragment();
         }
 
-        if (fragment != null) {
+        if (selectedFragment != null) {
             recyclerView.setVisibility(View.GONE);
-            getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.fragment_container, fragment)
+            fragmentManager.beginTransaction()
+                    .replace(R.id.fragment_container, selectedFragment)
                     .commit();
         }
 
@@ -221,7 +237,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             // 清除登录状态
             SharedPreferences sharedPref = getSharedPreferences("user_prefs", Context.MODE_PRIVATE);
             sharedPref.edit().remove("loggedInUserId").apply();
-            
+
             // 跳转到登录页面
             startActivity(new Intent(this, LoginActivity.class));
             finish();
@@ -241,4 +257,3 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         }
     }
 }
-

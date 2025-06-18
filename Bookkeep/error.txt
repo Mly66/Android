@@ -1,142 +1,611 @@
----------------------------- PROCESS STARTED (6424) for package cn.nbmly.bookkeep ----------------------------
-2025-06-16 11:25:23.047  1798-6244  ndroid.systemu          com.android.systemui                 E  Failed to open APK '/data/app/cn.nbmly.bookkeep-TySybKR6s3AnlYldeSF3bw==/base.apk' I/O error
-2025-06-16 11:25:23.047  1798-6244  ResourcesManager        com.android.systemui                 E  failed to add asset path /data/app/cn.nbmly.bookkeep-TySybKR6s3AnlYldeSF3bw==/base.apk
-2025-06-16 11:25:23.047  1798-6244  ndroid.systemu          com.android.systemui                 E  Failed to open APK '/data/app/cn.nbmly.bookkeep-TySybKR6s3AnlYldeSF3bw==/base.apk' I/O error
-2025-06-16 11:25:23.047  1798-6244  ResourcesManager        com.android.systemui                 E  failed to add asset path /data/app/cn.nbmly.bookkeep-TySybKR6s3AnlYldeSF3bw==/base.apk
-2025-06-16 11:25:23.047  1798-6244  ndroid.systemu          com.android.systemui                 E  Failed to open APK '/data/app/cn.nbmly.bookkeep-TySybKR6s3AnlYldeSF3bw==/base.apk' I/O error
-2025-06-16 11:25:23.047  1798-6244  ResourcesManager        com.android.systemui                 E  failed to add asset path /data/app/cn.nbmly.bookkeep-TySybKR6s3AnlYldeSF3bw==/base.apk
-2025-06-16 11:25:23.210  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/os/Trace;->TRACE_TAG_APP:J (light greylist, reflection)
-2025-06-16 11:25:23.210  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
-2025-06-16 11:25:23.248  6424-6424  AppCompatDelegate       cn.nbmly.bookkeep                    D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
-2025-06-16 11:25:23.265  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
-2025-06-16 11:25:23.266  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
-2025-06-16 11:25:23.266  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
-2025-06-16 11:25:23.266  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
-2025-06-16 11:25:23.299  6424-6433  System                  cn.nbmly.bookkeep                    W  A resource failed to call close. 
-2025-06-16 11:25:23.308  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
-2025-06-16 11:25:23.374  6424-6424  OpenGLRenderer          cn.nbmly.bookkeep                    D  Skia GL Pipeline
-2025-06-16 11:25:23.419  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (light greylist, reflection)
-2025-06-16 11:25:23.419  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (light greylist, reflection)
-2025-06-16 11:25:23.419  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/os/Trace;->traceCounter(JLjava/lang/String;I)V (light greylist, reflection)
-2025-06-16 11:25:23.424  6424-6451  HostConnection          cn.nbmly.bookkeep                    I  HostConnection::HostConnection: pid=6424, tid=6451, this=0x7fff6c049540
-2025-06-16 11:25:23.425  6424-6451  <no-tag>                cn.nbmly.bookkeep                    I  fastpipe: Connect success
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    D  HostRPC::connect sucess: app=cn.nbmly.bookkeep, pid=6424, tid=6451, this=0x7fff6c0e1580
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.ncsoft.lineagen gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.vng.thiennhaiminhnguyetdaovng gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.proximabeta.tdm.kr gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.proximabeta.tdm.kr.cloud gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.proximabeta.tdm.kr.onestore gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.tencent.tmgp.wuxia gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.qqsy.gundam.ld gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.qqsy.gundam gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.gravity.cute.tw.testand gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.cayenne.gvl gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.netmarble.tskgb gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.longe.racehmt gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.gvi.robegins.aos gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.studiocodedragon.projectss gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.jingxiu.hygd gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.playwith.nsealm.tw.googl gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.playwith.sealm.kr.googl gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.gravity.cute.tw.and gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.forgefun.redcovenant gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.silkroad.mb gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.vortexgravity.bealive.ld gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.com2usholdings.soulstrike.android.google.global.normal gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.cobby.lonelysurvivor gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.cmge.ltqrc gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.cmge.ltqrc.ld gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.seasun.jxqy0.jsgf.xsj gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.seasun.jxqy0.huawei gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.mobigame.tt12 gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.kaneten.client.and gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.playwith.rohan2.kr gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.linecorp.LGATF gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.atknsyl.weaponmaster gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.blizzard.diablo.immortal gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.netease.dfjssea gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.netease.dfjsjp gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.netease.dfjskr gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! jp.co.applibot.chiikawapocketgl gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! jp.co.applibot.chiikawapocket gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.kakaogames.pcr gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.kakaogames.eversoul gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.kakaogames.eversouljp gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.ntrance.dkr.and gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.zlongame.eversoul gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.Chillgaming.oneState gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.activision.callofduty.shooter gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.garena.game.codm gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.vng.codmvn gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.VIIBYTE.RivalisAcademiaNexus gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.qjsjqy.ld gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.dragonli.projectsnow gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.netmarble.kofafk gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.greenmushroom.boomblitz.gp gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.hermes.p6gameos gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.crystal.usad gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.jingxiu.yanwu gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.playhardlab.heroes gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.topgamestudio.americanblocksnipersurvival.jf gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! vng.games.gs1.phongthan.mobile.com gl
-2025-06-16 11:25:23.426  6424-6451  HostConnection          cn.nbmly.bookkeep                    D  queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:cn.nbmly.bookkeep
-2025-06-16 11:25:23.427  6424-6451  <no-tag>                cn.nbmly.bookkeep                    I  fastpipe: Connect success
-2025-06-16 11:25:23.427  6424-6451  HostConnection          cn.nbmly.bookkeep                    D  recv ProcessPuidReply name=cn.nbmly.bookkeep puid=33 g_u64CapsFlag=1d
-2025-06-16 11:25:23.429  6424-6451  ConfigStore             cn.nbmly.bookkeep                    I  android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
-2025-06-16 11:25:23.429  6424-6451  ConfigStore             cn.nbmly.bookkeep                    I  android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
-2025-06-16 11:25:23.429  6424-6451  OpenGLRenderer          cn.nbmly.bookkeep                    I  Initialized EGL, version 1.4
-2025-06-16 11:25:23.429  6424-6451  OpenGLRenderer          cn.nbmly.bookkeep                    D  Swap behavior 1
-2025-06-16 11:25:23.429  6424-6451  EGL_adreno              cn.nbmly.bookkeep                    I  eglCreateContext request GLES major-version=2
-2025-06-16 11:25:23.438  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/FontFamily;-><init>()V (light greylist, reflection)
-2025-06-16 11:25:23.438  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/FontFamily;->addFontFromAssetManager(Landroid/content/res/AssetManager;Ljava/lang/String;IZIII[Landroid/graphics/fonts/FontVariationAxis;)Z (light greylist, reflection)
-2025-06-16 11:25:23.438  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/FontFamily;->addFontFromBuffer(Ljava/nio/ByteBuffer;I[Landroid/graphics/fonts/FontVariationAxis;II)Z (light greylist, reflection)
-2025-06-16 11:25:23.438  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/FontFamily;->freeze()Z (light greylist, reflection)
-2025-06-16 11:25:23.438  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/FontFamily;->abortCreation()V (light greylist, reflection)
-2025-06-16 11:25:23.438  6424-6424  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/Typeface;->createFromFamiliesWithDefault([Landroid/graphics/FontFamily;Ljava/lang/String;II)Landroid/graphics/Typeface; (light greylist, reflection)
-2025-06-16 11:25:23.439  6424-6451  EGL_adreno              cn.nbmly.bookkeep                    D  eglCreateContext: 0x7fff6c073940: maj 3 min 1 rcv 4
-2025-06-16 11:25:23.464  6424-6451  EGL_adreno              cn.nbmly.bookkeep                    D  eglMakeCurrent: 0x7fff6c073940: ver 3 1 (tinfo 0x7fff6c0c4040)
-2025-06-16 11:25:23.467  6424-6451  HostConnection          cn.nbmly.bookkeep                    D  ExtendedRCEncoderContext GL_VERSION return OpenGL ES 3.1
-2025-06-16 11:25:23.469  6424-6451  eglCodecCommon          cn.nbmly.bookkeep                    E  glUtilsParamSize: unknow param 0x00008c29
-2025-06-16 11:25:23.469  6424-6451  GLESv2_enc              cn.nbmly.bookkeep                    W  no support GL_NUM_PROGRAM_BINARY_FORMATS
-2025-06-16 11:25:23.475  6424-6451  vndksupport             cn.nbmly.bookkeep                    D  Loading /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
-2025-06-16 11:25:23.475  6424-6451  vndksupport             cn.nbmly.bookkeep                    D  Loading /vendor/lib64/hw/gralloc.default.so from current namespace instead of sphal namespace.
-2025-06-16 11:25:23.481  6424-6451  EGL_adreno              cn.nbmly.bookkeep                    E  tid 6451: eglSurfaceAttrib(1346): error 0x3009 (EGL_BAD_MATCH)
-2025-06-16 11:25:23.481  6424-6451  OpenGLRenderer          cn.nbmly.bookkeep                    W  Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fff57c7d000, error=EGL_BAD_MATCH
-2025-06-16 11:25:23.491  6424-6451  EGL_adreno              cn.nbmly.bookkeep                    D  eglMakeCurrent: 0x7fff6c073940: ver 3 1 (tinfo 0x7fff6c0c4040)
-2025-06-16 11:25:25.387  6424-6424  ActivityThread          cn.nbmly.bookkeep                    W  handleWindowVisibility: no activity for token android.os.BinderProxy@8f44494
-2025-06-16 11:25:25.423  6424-6424  AndroidRuntime          cn.nbmly.bookkeep                    D  Shutting down VM
-2025-06-16 11:25:25.424  6424-6424  AndroidRuntime          cn.nbmly.bookkeep                    E  FATAL EXCEPTION: main (Ask Gemini)
-                                                                                                    Process: cn.nbmly.bookkeep, PID: 6424
-                                                                                                    java.lang.RuntimeException: Unable to start activity ComponentInfo{cn.nbmly.bookkeep/cn.nbmly.bookkeep.activities.BillDetailActivity}: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Spinner.setAdapter(android.widget.SpinnerAdapter)' on a null object reference
-                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2958)
-                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3093)
-                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:78)
-                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:108)
-                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:68)
-                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1823)
-                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106)
-                                                                                                    	at android.os.Looper.loop(Looper.java:193)
-                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:6840)
-                                                                                                    	at java.lang.reflect.Method.invoke(Native Method)
-                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
-                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:860)
-                                                                                                    Caused by: java.lang.NullPointerException: Attempt to invoke virtual method 'void android.widget.Spinner.setAdapter(android.widget.SpinnerAdapter)' on a null object reference
-                                                                                                    	at cn.nbmly.bookkeep.activities.BillDetailActivity.setupSpinners(BillDetailActivity.java:99)
-                                                                                                    	at cn.nbmly.bookkeep.activities.BillDetailActivity.onCreate(BillDetailActivity.java:55)
-                                                                                                    	at android.app.Activity.performCreate(Activity.java:7144)
-                                                                                                    	at android.app.Activity.performCreate(Activity.java:7135)
-                                                                                                    	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1271)
-                                                                                                    	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:2938)
-                                                                                                    	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:3093) 
-                                                                                                    	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:78) 
-                                                                                                    	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:108) 
-                                                                                                    	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:68) 
-                                                                                                    	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1823) 
-                                                                                                    	at android.os.Handler.dispatchMessage(Handler.java:106) 
-                                                                                                    	at android.os.Looper.loop(Looper.java:193) 
-                                                                                                    	at android.app.ActivityThread.main(ActivityThread.java:6840) 
-                                                                                                    	at java.lang.reflect.Method.invoke(Native Method) 
-                                                                                                    	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493) 
-                                                                                                    	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:860) 
----------------------------- PROCESS ENDED (6424) for package cn.nbmly.bookkeep ----------------------------
-2025-06-16 11:25:26.015  1644-1733  InputDispatcher         system_server                        E  channel '608e269 cn.nbmly.bookkeep/cn.nbmly.bookkeep.activities.MainActivity (server)' ~ Channel is unrecoverably broken and will be disposed!
+2025-06-18 22:48:28.780  1644-1655  ActivityManager         system_server                        I  Force stopping cn.nbmly.bookkeep appid=10103 user=0: from pid 4429
+2025-06-18 22:48:28.782  2301-2301  ContextImpl             com.android.coreservice              W  Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1531 android.content.ContextWrapper.startService:664 android.content.ContextWrapper.startService:664 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3424 
+2025-06-18 22:48:28.782  1974-1974  CarrierSvcBindHelper    com.android.phone                    D  No carrier app for: 0
+2025-06-18 22:48:28.847  4436-4436  id                      pid-4436                             I  type=1400 audit(0.0:869): avc: denied { search } for name="3519" dev="proc" ino=30727 scontext=u:r:untrusted_app:s0:c103,c256,c512,c768 tcontext=u:r:shell:s0 tclass=dir permissive=1
+2025-06-18 22:48:28.847  4436-4436  id                      pid-4436                             I  type=1400 audit(0.0:869): avc: denied { read } for name="cmdline" dev="proc" ino=29294 scontext=u:r:untrusted_app:s0:c103,c256,c512,c768 tcontext=u:r:shell:s0 tclass=file permissive=1
+2025-06-18 22:48:28.847  4436-4436  id                      pid-4436                             I  type=1400 audit(0.0:869): avc: denied { open } for path="/proc/3519/cmdline" dev="proc" ino=29294 scontext=u:r:untrusted_app:s0:c103,c256,c512,c768 tcontext=u:r:shell:s0 tclass=file permissive=1
+2025-06-18 22:48:28.913  1644-1655  ActivityManager         system_server                        I  Force stopping cn.nbmly.bookkeep appid=10103 user=0: from pid 4442
+2025-06-18 22:48:28.915  2301-2301  ContextImpl             com.android.coreservice              W  Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1531 android.content.ContextWrapper.startService:664 android.content.ContextWrapper.startService:664 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3424 
+2025-06-18 22:48:28.916  1974-1974  CarrierSvcBindHelper    com.android.phone                    D  No carrier app for: 0
+2025-06-18 22:48:28.962  1644-3975  ActivityManager         system_server                        I  START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=cn.nbmly.bookkeep/.activities.MainActivity} from uid 2000
+2025-06-18 22:48:28.978  2301-2301  ContextImpl             com.android.coreservice              W  Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1531 android.content.ContextWrapper.startService:664 android.content.ContextWrapper.startService:664 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3424 
+2025-06-18 22:48:29.016  1644-1660  ActivityManager         system_server                        I  Start proc 4448:cn.nbmly.bookkeep/u0a103 for activity cn.nbmly.bookkeep/.activities.MainActivity
+2025-06-18 22:48:29.034  4448-4448  Zygote                  pid-4448                             I  seccomp disabled by setenforce 0
+2025-06-18 22:48:29.037  4448-4448  .nbmly.bookkee          pid-4448                             I  Late-enabling -Xcheck:jni
+2025-06-18 22:48:29.072  4448-4448  nativebridge            pid-4448                             D  call UnloadNativeBridge! state=1
+2025-06-18 22:48:29.214  2343-2465  EGL_adreno              com.android.launcher3                D  eglMakeCurrent: 0x7fff6c036b40: ver 3 1 (tinfo 0x7fff55bf6360)
+2025-06-18 22:48:29.244  2301-2301  ContextImpl             com.android.coreservice              W  Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1531 android.content.ContextWrapper.startService:664 android.content.ContextWrapper.startService:664 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3424 
+---------------------------- PROCESS STARTED (4448) for package cn.nbmly.bookkeep ----------------------------
+2025-06-18 22:48:29.301  1644-1651  System                  system_server                        W  A resource failed to call close. 
+2025-06-18 22:48:29.301  1644-1651  chatty                  system_server                        I  uid=1000(system) FinalizerDaemon identical 36 lines
+2025-06-18 22:48:29.301  1644-1651  System                  system_server                        W  A resource failed to call close. 
+2025-06-18 22:48:29.444  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/os/Trace;->TRACE_TAG_APP:J (light greylist, reflection)
+2025-06-18 22:48:29.444  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (light greylist, reflection)
+2025-06-18 22:48:29.503  4448-4448  AppCompatDelegate       cn.nbmly.bookkeep                    D  Checking for metadata for AppLocalesMetadataHolderService : Service not found
+2025-06-18 22:48:29.529  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/graphics/Insets;->left:I (light greylist, linking)
+2025-06-18 22:48:29.529  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/graphics/Insets;->top:I (light greylist, linking)
+2025-06-18 22:48:29.529  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/graphics/Insets;->right:I (light greylist, linking)
+2025-06-18 22:48:29.529  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/graphics/Insets;->bottom:I (light greylist, linking)
+2025-06-18 22:48:29.531  4448-4457  System                  cn.nbmly.bookkeep                    W  A resource failed to call close. 
+2025-06-18 22:48:29.567  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (light greylist, reflection)
+2025-06-18 22:48:29.781  4448-4448  OpenGLRenderer          cn.nbmly.bookkeep                    D  Skia GL Pipeline
+2025-06-18 22:48:29.820  4448-4448  Choreographer           cn.nbmly.bookkeep                    I  Skipped 43 frames!  The application may be doing too much work on its main thread.
+2025-06-18 22:48:29.831  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/view/WindowInsets;->CONSUMED:Landroid/view/WindowInsets; (light greylist, reflection)
+2025-06-18 22:48:29.832  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/view/View;->getViewRootImpl()Landroid/view/ViewRootImpl; (light greylist, reflection)
+2025-06-18 22:48:29.832  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/view/View$AttachInfo;->mVisibleInsets:Landroid/graphics/Rect; (light greylist, reflection)
+2025-06-18 22:48:29.832  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/view/ViewRootImpl;->mAttachInfo:Landroid/view/View$AttachInfo; (light greylist, reflection)
+2025-06-18 22:48:29.860  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (light greylist, reflection)
+2025-06-18 22:48:29.860  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (light greylist, reflection)
+2025-06-18 22:48:29.860  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/os/Trace;->traceCounter(JLjava/lang/String;I)V (light greylist, reflection)
+2025-06-18 22:48:29.868  4448-4474  HostConnection          cn.nbmly.bookkeep                    I  HostConnection::HostConnection: pid=4448, tid=4474, this=0x7fff6a5c7980
+2025-06-18 22:48:29.863  4448-4448  RenderThread            cn.nbmly.bookkeep                    I  type=1400 audit(0.0:883): avc: denied { read write } for name="fastpipe" dev="tmpfs" ino=49 scontext=u:r:untrusted_app:s0:c103,c256,c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+2025-06-18 22:48:29.863  4448-4448  RenderThread            cn.nbmly.bookkeep                    I  type=1400 audit(0.0:883): avc: denied { open } for path="/dev/fastpipe" dev="tmpfs" ino=49 scontext=u:r:untrusted_app:s0:c103,c256,c512,c768 tcontext=u:object_r:device:s0 tclass=chr_file permissive=1
+2025-06-18 22:48:29.873  4448-4474  <no-tag>                cn.nbmly.bookkeep                    I  fastpipe: Connect success
+2025-06-18 22:48:29.873  4448-4474  HostConnection          cn.nbmly.bookkeep                    D  HostRPC::connect sucess: app=cn.nbmly.bookkeep, pid=4448, tid=4474, this=0x7fff6a51f440
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.ncsoft.lineagen gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.vng.thiennhaiminhnguyetdaovng gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.proximabeta.tdm.kr gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.proximabeta.tdm.kr.cloud gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.proximabeta.tdm.kr.onestore gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.tencent.tmgp.wuxia gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.qqsy.gundam.ld gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.qqsy.gundam gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.gravity.cute.tw.testand gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.cayenne.gvl gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.netmarble.tskgb gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.longe.racehmt gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.gvi.robegins.aos gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.studiocodedragon.projectss gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.jingxiu.hygd gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.playwith.nsealm.tw.googl gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.playwith.sealm.kr.googl gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.gravity.cute.tw.and gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.forgefun.redcovenant gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.silkroad.mb gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.vortexgravity.bealive.ld gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.com2usholdings.soulstrike.android.google.global.normal gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.cobby.lonelysurvivor gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.cmge.ltqrc gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.cmge.ltqrc.ld gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.seasun.jxqy0.jsgf.xsj gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.seasun.jxqy0.huawei gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.mobigame.tt12 gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.kaneten.client.and gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.playwith.rohan2.kr gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.linecorp.LGATF gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.atknsyl.weaponmaster gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.blizzard.diablo.immortal gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.netease.dfjssea gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.netease.dfjsjp gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.netease.dfjskr gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! jp.co.applibot.chiikawapocketgl gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! jp.co.applibot.chiikawapocket gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.kakaogames.pcr gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.kakaogames.eversoul gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.kakaogames.eversouljp gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.ntrance.dkr.and gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.zlongame.eversoul gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.Chillgaming.oneState gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.activision.callofduty.shooter gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.garena.game.codm gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.vng.codmvn gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.VIIBYTE.RivalisAcademiaNexus gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.qjsjqy.ld gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.dragonli.projectsnow gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.netmarble.kofafk gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.greenmushroom.boomblitz.gp gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.hermes.p6gameos gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.crystal.usad gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.jingxiu.yanwu gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.playhardlab.heroes gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.topgamestudio.americanblocksnipersurvival.jf gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! vng.games.gs1.phongthan.mobile.com gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    E  /data/local/cfg-hanen/gl_force format error! com.userjoy.szm gl
+2025-06-18 22:48:29.874  4448-4474  HostConnection          cn.nbmly.bookkeep                    D  queryAndSetGLESMaxVersion select gles-version: 3.1 hostGLVersion:46 process:cn.nbmly.bookkeep
+2025-06-18 22:48:29.875  4448-4474  <no-tag>                cn.nbmly.bookkeep                    I  fastpipe: Connect success
+2025-06-18 22:48:29.875  4448-4474  HostConnection          cn.nbmly.bookkeep                    D  recv ProcessPuidReply name=cn.nbmly.bookkeep puid=12 g_u64CapsFlag=1d
+2025-06-18 22:48:29.879  4448-4474  ConfigStore             cn.nbmly.bookkeep                    I  android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasWideColorDisplay retrieved: 0
+2025-06-18 22:48:29.879  4448-4474  ConfigStore             cn.nbmly.bookkeep                    I  android::hardware::configstore::V1_0::ISurfaceFlingerConfigs::hasHDRDisplay retrieved: 0
+2025-06-18 22:48:29.879  4448-4474  OpenGLRenderer          cn.nbmly.bookkeep                    I  Initialized EGL, version 1.4
+2025-06-18 22:48:29.879  4448-4474  OpenGLRenderer          cn.nbmly.bookkeep                    D  Swap behavior 1
+2025-06-18 22:48:29.879  4448-4474  EGL_adreno              cn.nbmly.bookkeep                    I  eglCreateContext request GLES major-version=2
+2025-06-18 22:48:29.892  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/FontFamily;-><init>()V (light greylist, reflection)
+2025-06-18 22:48:29.892  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/FontFamily;->addFontFromAssetManager(Landroid/content/res/AssetManager;Ljava/lang/String;IZIII[Landroid/graphics/fonts/FontVariationAxis;)Z (light greylist, reflection)
+2025-06-18 22:48:29.892  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/FontFamily;->addFontFromBuffer(Ljava/nio/ByteBuffer;I[Landroid/graphics/fonts/FontVariationAxis;II)Z (light greylist, reflection)
+2025-06-18 22:48:29.892  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/FontFamily;->freeze()Z (light greylist, reflection)
+2025-06-18 22:48:29.892  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/FontFamily;->abortCreation()V (light greylist, reflection)
+2025-06-18 22:48:29.892  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden method Landroid/graphics/Typeface;->createFromFamiliesWithDefault([Landroid/graphics/FontFamily;Ljava/lang/String;II)Landroid/graphics/Typeface; (light greylist, reflection)
+2025-06-18 22:48:29.899  4448-4474  EGL_adreno              cn.nbmly.bookkeep                    D  eglCreateContext: 0x7fff6a563ca0: maj 3 min 1 rcv 4
+2025-06-18 22:48:29.936  4448-4474  EGL_adreno              cn.nbmly.bookkeep                    D  eglMakeCurrent: 0x7fff6a563ca0: ver 3 1 (tinfo 0x7fff6a50dd80)
+2025-06-18 22:48:29.941  4448-4474  HostConnection          cn.nbmly.bookkeep                    D  ExtendedRCEncoderContext GL_VERSION return OpenGL ES 3.1
+2025-06-18 22:48:29.944  4448-4474  eglCodecCommon          cn.nbmly.bookkeep                    E  glUtilsParamSize: unknow param 0x00008c29
+2025-06-18 22:48:29.944  4448-4474  GLESv2_enc              cn.nbmly.bookkeep                    W  no support GL_NUM_PROGRAM_BINARY_FORMATS
+2025-06-18 22:48:29.953  4448-4474  vndksupport             cn.nbmly.bookkeep                    D  Loading /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so from current namespace instead of sphal namespace.
+2025-06-18 22:48:29.958  4448-4474  vndksupport             cn.nbmly.bookkeep                    D  Loading /vendor/lib64/hw/gralloc.default.so from current namespace instead of sphal namespace.
+2025-06-18 22:48:29.970  4448-4474  EGL_adreno              cn.nbmly.bookkeep                    E  tid 4474: eglSurfaceAttrib(1346): error 0x3009 (EGL_BAD_MATCH)
+2025-06-18 22:48:29.970  4448-4474  OpenGLRenderer          cn.nbmly.bookkeep                    W  Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fff5ae27400, error=EGL_BAD_MATCH
+2025-06-18 22:48:30.055  4448-4453  .nbmly.bookkee          cn.nbmly.bookkeep                    I  Compiler allocated 4MB to compile void android.widget.TextView.<init>(android.content.Context, android.util.AttributeSet, int, int)
+2025-06-18 22:48:30.078  4448-4448  Choreographer           cn.nbmly.bookkeep                    I  Skipped 30 frames!  The application may be doing too much work on its main thread.
+2025-06-18 22:48:30.111  4448-4474  EGL_adreno              cn.nbmly.bookkeep                    D  eglMakeCurrent: 0x7fff6a563ca0: ver 3 1 (tinfo 0x7fff6a50dd80)
+2025-06-18 22:48:30.163  1644-1657  ActivityManager         system_server                        I  Displayed cn.nbmly.bookkeep/.activities.MainActivity: +1s199ms
+2025-06-18 22:48:29.782  2301-2301  ContextImpl             com.android.coreservice              W  Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1531 android.content.ContextWrapper.startService:664 android.content.ContextWrapper.startService:664 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3424 
+2025-06-18 22:48:30.165  2301-2301  ContextImpl             com.android.coreservice              W  Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1531 android.content.ContextWrapper.startService:664 android.content.ContextWrapper.startService:664 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3424 
+2025-06-18 22:48:30.471  2981-3870  Conscrypt               com.google.android.gms               W  Could not set socket write timeout: java.net.SocketException: Socket closed
+2025-06-18 22:48:30.471  2981-3870  Conscrypt               com.google.android.gms               W  	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@251833017@25.18.33 (100800-756823100):219)
+2025-06-18 22:48:30.471  2981-3870  Conscrypt               com.google.android.gms               W  	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@251833017@25.18.33 (100800-756823100):4)
+2025-06-18 22:48:31.178  4069-4131  chromium                com.google.android.gms.persistent    E  [0618/224831.178559:ERROR:net/socket/ssl_client_socket_impl.cc:877] handshake failed; returned -1, SSL error code 1, net_error -100
+2025-06-18 22:48:31.179  4069-4117  Auth                    com.google.android.gms.persistent    W  [TokenResponseCallback] TokenResponse failed with exception [CONTEXT service_id=343 ] (Ask Gemini)
+                                                                                                    cefp: Failed to process request
+                                                                                                    	at cefv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):23)
+                                                                                                    	at cejp.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):15)
+                                                                                                    	at cekd.onFailed(:com.google.android.gms@251833017@25.18.33 (100800-756823100):15)
+                                                                                                    	at m1.mg.onFailed(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):3)
+                                                                                                    	at m1.lh.run(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):16)
+                                                                                                    	at axmu.c(:com.google.android.gms@251833017@25.18.33 (100800-756823100):50)
+                                                                                                    	at axmu.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):70)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+                                                                                                    	at axsj.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):8)
+                                                                                                    	at java.lang.Thread.run(Thread.java:764)
+                                                                                                    Caused by: m1.lq: Exception in CronetUrlRequest: net::ERR_CONNECTION_CLOSED, ErrorCode=5, InternalErrorCode=-100, Retryable=true
+                                                                                                    	at org.chromium.net.impl.CronetUrlRequest.onError(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):3)
+2025-06-18 22:48:31.179  4069-4111  AuthPII                 com.google.android.gms.persistent    E  [RequestTokenManager] getToken() -> NETWORK_ERROR. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/playatoms (Ask Gemini)
+                                                                                                    awir: Error when calling server using GmsNetworkStack.
+                                                                                                    	at zxx.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):1390)
+                                                                                                    	at zxv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):574)
+                                                                                                    	at zxu.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):104)
+                                                                                                    	at tuc.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):524)
+                                                                                                    	at zrl.getAuthToken(:com.google.android.gms@251833017@25.18.33 (100800-756823100):410)
+                                                                                                    	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+                                                                                                    	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:114)
+                                                                                                    	at android.os.Binder.transact(Binder.java:667)
+                                                                                                    	at bwma.onTransact(:com.google.android.gms@251833017@25.18.33 (100800-756823100):10)
+                                                                                                    	at android.os.Binder.transact(Binder.java:667)
+                                                                                                    	at bnbm.onTransact(:com.google.android.gms@251833017@25.18.33 (100800-756823100):148)
+                                                                                                    	at android.os.Binder.execTransact(Binder.java:731)
+                                                                                                    Caused by: awir: Error requesting token.
+                                                                                                    	at zxx.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):212)
+                                                                                                    	at zxx.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):51)
+                                                                                                    	at zxv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):574) 
+                                                                                                    	at zxu.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):104) 
+                                                                                                    	at tuc.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):524) 
+                                                                                                    	at zrl.getAuthToken(:com.google.android.gms@251833017@25.18.33 (100800-756823100):410) 
+                                                                                                    	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246) 
+                                                                                                    	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:114) 
+                                                                                                    	at android.os.Binder.transact(Binder.java:667) 
+                                                                                                    	at bwma.onTransact(:com.google.android.gms@251833017@25.18.33 (100800-756823100):10) 
+                                                                                                    	at android.os.Binder.transact(Binder.java:667) 
+                                                                                                    	at bnbm.onTransact(:com.google.android.gms@251833017@25.18.33 (100800-756823100):148) 
+                                                                                                    	at android.os.Binder.execTransact(Binder.java:731) 
+                                                                                                    Caused by: java.util.concurrent.ExecutionException: cefp: Failed to process request
+                                                                                                    	at faya.j(:com.google.android.gms@251833017@25.18.33 (100800-756823100):21)
+                                                                                                    	at fayj.v(:com.google.android.gms@251833017@25.18.33 (100800-756823100):107)
+                                                                                                    	at zxx.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):193)
+                                                                                                    	at zxx.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):51) 
+                                                                                                    	at zxv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):574) 
+                                                                                                    	at zxu.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):104) 
+                                                                                                    	at tuc.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):524) 
+                                                                                                    	at zrl.getAuthToken(:com.google.android.gms@251833017@25.18.33 (100800-756823100):410) 
+                                                                                                    	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246) 
+                                                                                                    	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:114) 
+                                                                                                    	at android.os.Binder.transact(Binder.java:667) 
+                                                                                                    	at bwma.onTransact(:com.google.android.gms@251833017@25.18.33 (100800-756823100):10) 
+                                                                                                    	at android.os.Binder.transact(Binder.java:667) 
+                                                                                                    	at bnbm.onTransact(:com.google.android.gms@251833017@25.18.33 (100800-756823100):148) 
+                                                                                                    	at android.os.Binder.execTransact(Binder.java:731) 
+                                                                                                    Caused by: cefp: Failed to process request
+                                                                                                    	at cefv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):23)
+                                                                                                    	at cejp.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):15)
+                                                                                                    	at cekd.onFailed(:com.google.android.gms@251833017@25.18.33 (100800-756823100):15)
+                                                                                                    	at m1.mg.onFailed(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):3)
+                                                                                                    	at m1.lh.run(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):16)
+                                                                                                    	at axmu.c(:com.google.android.gms@251833017@25.18.33 (100800-756823100):50)
+                                                                                                    	at axmu.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):70)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+                                                                                                    	at axsj.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):8)
+                                                                                                    	at java.lang.Thread.run(Thread.java:764)
+                                                                                                    Caused by: m1.lq: Exception in CronetUrlRequest: net::ERR_CONNECTION_CLOSED, ErrorCode=5, InternalErrorCode=-100, Retryable=true
+                                                                                                    	at org.chromium.net.impl.CronetUrlRequest.onError(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):3)
+2025-06-18 22:48:31.180  4069-4111  AuthPII                 com.google.android.gms.persistent    E  Message is Error when calling server using GmsNetworkStack. (Ask Gemini)
+                                                                                                    awir: Error when calling server using GmsNetworkStack.
+                                                                                                    	at zxx.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):1390)
+                                                                                                    	at zxv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):574)
+                                                                                                    	at zxu.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):104)
+                                                                                                    	at tuc.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):524)
+                                                                                                    	at zrl.getAuthToken(:com.google.android.gms@251833017@25.18.33 (100800-756823100):410)
+                                                                                                    	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246)
+                                                                                                    	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:114)
+                                                                                                    	at android.os.Binder.transact(Binder.java:667)
+                                                                                                    	at bwma.onTransact(:com.google.android.gms@251833017@25.18.33 (100800-756823100):10)
+                                                                                                    	at android.os.Binder.transact(Binder.java:667)
+                                                                                                    	at bnbm.onTransact(:com.google.android.gms@251833017@25.18.33 (100800-756823100):148)
+                                                                                                    	at android.os.Binder.execTransact(Binder.java:731)
+                                                                                                    Caused by: awir: Error requesting token.
+                                                                                                    	at zxx.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):212)
+                                                                                                    	at zxx.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):51)
+                                                                                                    	at zxv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):574) 
+                                                                                                    	at zxu.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):104) 
+                                                                                                    	at tuc.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):524) 
+                                                                                                    	at zrl.getAuthToken(:com.google.android.gms@251833017@25.18.33 (100800-756823100):410) 
+                                                                                                    	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246) 
+                                                                                                    	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:114) 
+                                                                                                    	at android.os.Binder.transact(Binder.java:667) 
+                                                                                                    	at bwma.onTransact(:com.google.android.gms@251833017@25.18.33 (100800-756823100):10) 
+                                                                                                    	at android.os.Binder.transact(Binder.java:667) 
+                                                                                                    	at bnbm.onTransact(:com.google.android.gms@251833017@25.18.33 (100800-756823100):148) 
+                                                                                                    	at android.os.Binder.execTransact(Binder.java:731) 
+                                                                                                    Caused by: java.util.concurrent.ExecutionException: cefp: Failed to process request
+                                                                                                    	at faya.j(:com.google.android.gms@251833017@25.18.33 (100800-756823100):21)
+                                                                                                    	at fayj.v(:com.google.android.gms@251833017@25.18.33 (100800-756823100):107)
+                                                                                                    	at zxx.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):193)
+                                                                                                    	at zxx.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):51) 
+                                                                                                    	at zxv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):574) 
+                                                                                                    	at zxu.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):104) 
+                                                                                                    	at tuc.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):524) 
+                                                                                                    	at zrl.getAuthToken(:com.google.android.gms@251833017@25.18.33 (100800-756823100):410) 
+                                                                                                    	at android.accounts.AbstractAccountAuthenticator$Transport.getAuthToken(AbstractAccountAuthenticator.java:246) 
+                                                                                                    	at android.accounts.IAccountAuthenticator$Stub.onTransact(IAccountAuthenticator.java:114) 
+                                                                                                    	at android.os.Binder.transact(Binder.java:667) 
+                                                                                                    	at bwma.onTransact(:com.google.android.gms@251833017@25.18.33 (100800-756823100):10) 
+                                                                                                    	at android.os.Binder.transact(Binder.java:667) 
+                                                                                                    	at bnbm.onTransact(:com.google.android.gms@251833017@25.18.33 (100800-756823100):148) 
+                                                                                                    	at android.os.Binder.execTransact(Binder.java:731) 
+                                                                                                    Caused by: cefp: Failed to process request
+                                                                                                    	at cefv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):23)
+                                                                                                    	at cejp.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):15)
+                                                                                                    	at cekd.onFailed(:com.google.android.gms@251833017@25.18.33 (100800-756823100):15)
+                                                                                                    	at m1.mg.onFailed(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):3)
+                                                                                                    	at m1.lh.run(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):16)
+                                                                                                    	at axmu.c(:com.google.android.gms@251833017@25.18.33 (100800-756823100):50)
+                                                                                                    	at axmu.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):70)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+                                                                                                    	at axsj.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):8)
+                                                                                                    	at java.lang.Thread.run(Thread.java:764)
+                                                                                                    Caused by: m1.lq: Exception in CronetUrlRequest: net::ERR_CONNECTION_CLOSED, ErrorCode=5, InternalErrorCode=-100, Retryable=true
+                                                                                                    	at org.chromium.net.impl.CronetUrlRequest.onError(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):3)
+2025-06-18 22:48:31.180  4069-4111  Auth                    com.google.android.gms.persistent    W  [GetToken] GetToken failed with status code: NetworkError  [CONTEXT service_id=343 ]
+2025-06-18 22:48:31.180  4069-4111  GLSActivity             com.google.android.gms.persistent    W  [GmsAccountAuthenticatorImpl] error status while fetching token:NetworkError
+2025-06-18 22:48:31.181  4069-4107  OAuthTokenProviderImpl  com.google.android.gms.persistent    E  getTokenWithNotification failed [CONTEXT service_id=121 ] (Ask Gemini)
+                                                                                                    java.io.IOException: NetworkError
+                                                                                                    	at android.accounts.AccountManager.convertErrorToException(AccountManager.java:2508)
+                                                                                                    	at android.accounts.AccountManager.access$700(AccountManager.java:166)
+                                                                                                    	at android.accounts.AccountManager$AmsTask$Response.onError(AccountManager.java:2359)
+                                                                                                    	at android.accounts.IAccountManagerResponse$Stub.onTransact(IAccountManagerResponse.java:70)
+                                                                                                    	at android.os.Binder.execTransact(Binder.java:731)
+2025-06-18 22:48:31.188  4069-4106  DomainFilterImpl        com.google.android.gms.persistent    E  Error while reading domain filter from WHAPI [CONTEXT service_id=121 ] (Ask Gemini)
+                                                                                                    java.util.concurrent.ExecutionException: gkeu: UNAUTHENTICATED
+                                                                                                    	at java.util.concurrent.FutureTask.report(FutureTask.java:123)
+                                                                                                    	at java.util.concurrent.FutureTask.get(FutureTask.java:193)
+                                                                                                    	at axgm.get(:com.google.android.gms@251833017@25.18.33 (100800-756823100):1)
+                                                                                                    	at bugd.t(:com.google.android.gms@251833017@25.18.33 (100800-756823100):88)
+                                                                                                    	at bugd.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):73)
+                                                                                                    	at bufx.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):5)
+                                                                                                    	at com.google.android.gms.instantapps.routing.DomainFilterUpdateChimeraService.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):190)
+                                                                                                    	at cenn.call(:com.google.android.gms@251833017@25.18.33 (100800-756823100):30)
+                                                                                                    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+                                                                                                    	at axmu.c(:com.google.android.gms@251833017@25.18.33 (100800-756823100):50)
+                                                                                                    	at axmu.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):70)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+                                                                                                    	at axsj.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):8)
+                                                                                                    	at java.lang.Thread.run(Thread.java:764)
+                                                                                                    Caused by: gkeu: UNAUTHENTICATED
+                                                                                                    	at bubk.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):394)
+                                                                                                    	at axgk.call(:com.google.android.gms@251833017@25.18.33 (100800-756823100):3)
+                                                                                                    	at java.util.concurrent.FutureTask.run(FutureTask.java:266) 
+                                                                                                    	at axmu.c(:com.google.android.gms@251833017@25.18.33 (100800-756823100):50) 
+                                                                                                    	at axmu.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):70) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) 
+                                                                                                    	at axsj.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):8) 
+                                                                                                    	at java.lang.Thread.run(Thread.java:764) 
+2025-06-18 22:48:31.188  4069-4106  DomainFilterUpdateChime com.google.android.gms.persistent    W  Retry later [CONTEXT service_id=121 ]
+2025-06-18 22:48:31.208  4069-4106  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:31.284  4069-4107  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:31.307  4069-4103  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:31.374  4069-4069  BoundBrokerSvc          com.google.android.gms.persistent    D  onBind: Intent { act=com.google.android.gms.scheduler.standalone.housekeeping.HousekeepingTrainTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+2025-06-18 22:48:31.374  4069-4069  BoundBrokerSvc          com.google.android.gms.persistent    D  Loading bound service for intent: Intent { act=com.google.android.gms.scheduler.standalone.housekeeping.HousekeepingTrainTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+2025-06-18 22:48:31.375  4069-4107  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:31.407  1644-1651  System                  system_server                        W  A resource failed to call close. 
+2025-06-18 22:48:31.408  1644-1651  chatty                  system_server                        I  uid=1000(system) FinalizerDaemon identical 40 lines
+2025-06-18 22:48:31.408  1644-1651  System                  system_server                        W  A resource failed to call close. 
+2025-06-18 22:48:31.408  4069-4400  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:31.418  4069-4103  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:31.437  4069-4069  BoundBrokerSvc          com.google.android.gms.persistent    D  onUnbind: Intent { act=com.google.android.gms.scheduler.standalone.housekeeping.HousekeepingTrainTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+2025-06-18 22:48:31.448  4069-4103  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) Task %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:31.443  2981-2981  lowpool[29]             com.google.android.gms               I  type=1400 audit(0.0:886): avc: denied { read } for name="Pictures" dev="sdcardfs" ino=1310723 scontext=u:r:untrusted_app:s0:c48,c256,c512,c768 tcontext=u:object_r:sdcardfs:s0 tclass=lnk_file permissive=1
+2025-06-18 22:48:31.472  2981-2981  BoundBrokerSvc          com.google.android.gms               D  onBind: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+2025-06-18 22:48:31.473  2981-2981  BoundBrokerSvc          com.google.android.gms               D  Loading bound service for intent: Intent { act=com.google.android.gms.feedback.internal.IFeedbackService dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsBoundBrokerService }
+2025-06-18 22:48:31.502  2981-3091  Icing                   com.google.android.gms               I  IndexChimeraService.getServiceInterface callingPackage=com.google.android.gms componentName=null serviceId=30
+2025-06-18 22:48:31.533  4069-4069  BoundBrokerSvc          com.google.android.gms.persistent    D  onBind: Intent { act=com.google.android.gms.scheduler.standalone.housekeeping.HousekeepingTrainTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+2025-06-18 22:48:31.533  4069-4069  BoundBrokerSvc          com.google.android.gms.persistent    D  Loading bound service for intent: Intent { act=com.google.android.gms.scheduler.standalone.housekeeping.HousekeepingTrainTaskService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentInternalBoundBrokerService }
+2025-06-18 22:48:31.535  4069-4106  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:31.539  2981-4322  Icing                   com.google.android.gms               I  Usage reports ok 1, Failed Usage reports 0, indexed 0, rejected 0
+2025-06-18 22:48:31.574  2981-2981  BoundBrokerSvc          com.google.android.gms               D  onBind: Intent { act=com.google.android.gms.semanticlocationhistory.deidentifieddata.historicalbusyness.TransientHistoricalBusynessProcessingService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+2025-06-18 22:48:31.574  2981-2981  BoundBrokerSvc          com.google.android.gms               D  Loading bound service for intent: Intent { act=com.google.android.gms.semanticlocationhistory.deidentifieddata.historicalbusyness.TransientHistoricalBusynessProcessingService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+2025-06-18 22:48:31.575  4069-4400  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:31.599  4069-4069  BoundBrokerSvc          com.google.android.gms.persistent    D  onRebind: Intent { act=com.google.android.gms.auth.aang.events.services.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+2025-06-18 22:48:31.613  4069-4107  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:31.613  2981-2981  BoundBrokerSvc          com.google.android.gms               D  onUnbind: Intent { act=com.google.android.gms.semanticlocationhistory.deidentifieddata.historicalbusyness.TransientHistoricalBusynessProcessingService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+2025-06-18 22:48:31.658  4069-4400  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:31.666  4069-4107  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:31.697  1644-1651  System                  system_server                        W  A resource failed to call close. 
+2025-06-18 22:48:31.697  1644-1651  chatty                  system_server                        I  uid=1000(system) FinalizerDaemon identical 36 lines
+2025-06-18 22:48:31.697  1644-1651  System                  system_server                        W  A resource failed to call close. 
+2025-06-18 22:48:31.715  4069-4107  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:31.724  4069-4420  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:31.761  4069-4420  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:32.326  1484-3676  audio_hw_hal            android.hardware.audio@2.0-service   D  raw_start_output_stream, stream=0xf681b000, sampleRate=48000, channel=2, bps=16, bufSize=4096
+2025-06-18 22:48:32.737  4448-4448  .nbmly.bookkee          cn.nbmly.bookkeep                    W  Accessing hidden field Landroid/view/View;->mAccessibilityDelegate:Landroid/view/View$AccessibilityDelegate; (light greylist, reflection)
+2025-06-18 22:48:32.937  1504-1504  ldinit                  ldinit                               I  type=1400 audit(0.0:894): avc: denied { read } for name="partitions" dev="proc" ino=4026532050 scontext=u:r:ldinit:s0 tcontext=u:object_r:proc:s0 tclass=file permissive=1
+2025-06-18 22:48:30.166  2301-2301  ContextImpl             com.android.coreservice              W  Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1531 android.content.ContextWrapper.startService:664 android.content.ContextWrapper.startService:664 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3424 
+2025-06-18 22:48:33.552  1644-1929  ActivityManager         system_server                        I  START u0 {cmp=cn.nbmly.bookkeep/.activities.NotificationSettingsActivity} from uid 10103
+2025-06-18 22:48:33.563  2301-2301  ContextImpl             com.android.coreservice              W  Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1531 android.content.ContextWrapper.startService:664 android.content.ContextWrapper.startService:664 com.android.coreservice.CoreBroadcastReceiver.onReceive:44 android.app.ActivityThread.handleReceiver:3424 
+2025-06-18 22:48:33.599  4448-4448  ActivityThread          cn.nbmly.bookkeep                    W  handleWindowVisibility: no activity for token android.os.BinderProxy@302298d
+2025-06-18 22:48:33.696  2301-2301  ContextImpl             com.android.coreservice              W  Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1531 android.content.ContextWrapper.startService:664 android.content.ContextWrapper.startService:664 com.android.coreservice.CoreBroadcastReceiver.onReceive:53 android.app.ActivityThread.handleReceiver:3424 
+2025-06-18 22:48:33.771  4448-4474  EGL_adreno              cn.nbmly.bookkeep                    E  tid 4474: eglSurfaceAttrib(1346): error 0x3009 (EGL_BAD_MATCH)
+2025-06-18 22:48:33.771  4448-4474  OpenGLRenderer          cn.nbmly.bookkeep                    W  Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fff6a44c580, error=EGL_BAD_MATCH
+2025-06-18 22:48:33.794  4448-4474  EGL_adreno              cn.nbmly.bookkeep                    D  eglMakeCurrent: 0x7fff6a563ca0: ver 3 1 (tinfo 0x7fff6a50dd80)
+2025-06-18 22:48:33.822  2301-2301  ContextImpl             com.android.coreservice              W  Calling a method in the system process without a qualified user: android.app.ContextImpl.startService:1531 android.content.ContextWrapper.startService:664 android.content.ContextWrapper.startService:664 com.android.coreservice.CoreBroadcastReceiver.onReceive:69 android.app.ActivityThread.handleReceiver:3424 
+2025-06-18 22:48:34.084  1526-1543  storaged                storaged                             E  getDiskStats failed with result NOT_SUPPORTED and size 0
+2025-06-18 22:48:33.830  4448-4474  chatty                  cn.nbmly.bookkeep                    I  uid=10103(cn.nbmly.bookkeep) RenderThread identical 3 lines
+2025-06-18 22:48:33.930  4448-4474  EGL_adreno              cn.nbmly.bookkeep                    D  eglMakeCurrent: 0x7fff6a563ca0: ver 3 1 (tinfo 0x7fff6a50dd80)
+2025-06-18 22:48:34.080  1526-1526  storaged                storaged                             I  type=1400 audit(0.0:896): avc: denied { call } for scontext=u:r:storaged:s0 tcontext=u:r:init:s0 tclass=binder permissive=1
+2025-06-18 22:48:29.500  1500-1500  sensors@1.0-ser         and....hardware.sensors@1.0-service  W  type=1300 audit(0.0:882): arch=c000003e syscall=16 success=yes exit=0 a0=7 a1=80046865 a2=7ffff6c0f000 a3=7ffff7427288 items=0 ppid=1 auid=4294967295 uid=1000 gid=1000 euid=1000 suid=1000 fsuid=1000 egid=1000 sgid=1000 fsgid=1000 tty=(none) ses=4294967295 exe="/system/vendor/bin/hw/android.hardware.sensors@1.0-service" subj=u:r:hal_sensors_default:s0 key=(null)
+2025-06-18 22:48:34.759  4448-4474  EGL_adreno              cn.nbmly.bookkeep                    D  eglMakeCurrent: 0x7fff6a563ca0: ver 3 1 (tinfo 0x7fff6a50dd80)
+2025-06-18 22:48:35.066  4448-4489  ProfileInstaller        cn.nbmly.bookkeep                    D  Installing profile for cn.nbmly.bookkeep
+2025-06-18 22:48:35.480  2981-3870  Conscrypt               com.google.android.gms               W  Could not set socket write timeout: java.net.SocketException: Socket closed
+2025-06-18 22:48:35.480  2981-3870  Conscrypt               com.google.android.gms               W  	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@251833017@25.18.33 (100800-756823100):219)
+2025-06-18 22:48:35.480  2981-3870  Conscrypt               com.google.android.gms               W  	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@251833017@25.18.33 (100800-756823100):4)
+2025-06-18 22:48:36.646  1484-1625  audio_hw_hal            android.hardware.audio@2.0-service   D  log_func, out_standby
+2025-06-18 22:48:36.646  1484-1625  audio_hw_hal            android.hardware.audio@2.0-service   D  raw_close_output_stream, dev=0xf6818000, stream =0xf681b000
+2025-06-18 22:48:36.646  1484-1625  audio_hw_hal            android.hardware.audio@2.0-service   D  raw_close_output_stream, stream=0xf681b000,  success!
+2025-06-18 22:48:36.788  4069-4131  chromium                com.google.android.gms.persistent    E  [0618/224836.788662:ERROR:net/socket/ssl_client_socket_impl.cc:877] handshake failed; returned -1, SSL error code 1, net_error -100
+2025-06-18 22:48:38.189  1484-3676  audio_hw_hal            android.hardware.audio@2.0-service   D  raw_start_output_stream, stream=0xf681b000, sampleRate=48000, channel=2, bps=16, bufSize=4096
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  java.lang.Exception: Toast callstack! strTip=设置已保存
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.widget.Toast.show(Toast.java:143)
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at cn.nbmly.bookkeep.activities.NotificationSettingsActivity.saveSettings(NotificationSettingsActivity.java:206)
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at cn.nbmly.bookkeep.activities.NotificationSettingsActivity.lambda$setupListeners$2$cn-nbmly-bookkeep-activities-NotificationSettingsActivity(NotificationSettingsActivity.java:113)
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at cn.nbmly.bookkeep.activities.NotificationSettingsActivity$$ExternalSyntheticLambda4.onClick(D8$$SyntheticClass:0)
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.view.View.performClick(View.java:6599)
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1218)
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.view.View.performClickInternal(View.java:6576)
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.view.View.access$3100(View.java:780)
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.view.View$PerformClick.run(View.java:25899)
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.os.Handler.handleCallback(Handler.java:873)
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.os.Handler.dispatchMessage(Handler.java:99)
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.os.Looper.loop(Looper.java:193)
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.app.ActivityThread.main(ActivityThread.java:6840)
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at java.lang.reflect.Method.invoke(Native Method)
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+2025-06-18 22:48:38.192  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:860)
+2025-06-18 22:48:38.245  4448-4474  EGL_adreno              cn.nbmly.bookkeep                    E  tid 4474: eglSurfaceAttrib(1346): error 0x3009 (EGL_BAD_MATCH)
+2025-06-18 22:48:38.245  4448-4474  OpenGLRenderer          cn.nbmly.bookkeep                    W  Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fff5ae27400, error=EGL_BAD_MATCH
+2025-06-18 22:48:38.248  4448-4474  EGL_adreno              cn.nbmly.bookkeep                    D  eglMakeCurrent: 0x7fff6a563ca0: ver 3 1 (tinfo 0x7fff6a50dd80)
+2025-06-18 22:48:38.253  4448-4474  EGL_adreno              cn.nbmly.bookkeep                    D  eglMakeCurrent: 0x7fff6a563ca0: ver 3 1 (tinfo 0x7fff6a50dd80)
+2025-06-18 22:48:38.255  2738-2959  PlayCommon              com.android.vending                  I  [186] adgc.k(22): Preparing logs for uploading
+2025-06-18 22:48:38.260  2738-2959  PlayCommon              com.android.vending                  I  [186] adgc.k(135): Connecting to server for timestamp: https://play.googleapis.com/play/log/timestamp
+2025-06-18 22:48:38.278  1644-1651  System                  system_server                        W  A resource failed to call close. 
+2025-06-18 22:48:38.279  1644-1651  chatty                  system_server                        I  uid=1000(system) FinalizerDaemon identical 36 lines
+2025-06-18 22:48:38.279  1644-1651  System                  system_server                        W  A resource failed to call close. 
+2025-06-18 22:48:39.223  1644-1657  memtrack                system_server                        E  Couldn't load memtrack module
+2025-06-18 22:48:39.223  1644-1657  android.os.Debug        system_server                        W  failed to get memory consumption info: -1
+2025-06-18 22:48:39.227  1487-2142  QCamera_Camera          and...e.camera.provider@2.4-service  V  getCameraInfo
+2025-06-18 22:48:39.227  1487-2142  QCamera_BaseCamera      and...e.camera.provider@2.4-service  V  getCameraInfo
+2025-06-18 22:48:39.233  1495-1578  hwcomposer              and...graphics.composer@2.1-service  D  hw_composer sent 90 syncs in 61s
+2025-06-18 22:48:39.237  1487-2142  QCamera_Camera          and...e.camera.provider@2.4-service  V  getCameraInfo
+2025-06-18 22:48:39.237  1487-2142  QCamera_BaseCamera      and...e.camera.provider@2.4-service  V  getCameraInfo
+2025-06-18 22:48:39.252  1799-1799  StatusBar               com.android.systemui                 D  disable<e i a s b h r c s > disable2<q i n >
+2025-06-18 22:48:39.276  1799-2085  EGL_adreno              com.android.systemui                 D  eglMakeCurrent: 0x7fff68af2de0: ver 3 1 (tinfo 0x7fff68af4640)
+2025-06-18 22:48:39.289  1799-2085  EGL_adreno              com.android.systemui                 E  tid 2085: eglSurfaceAttrib(1346): error 0x3009 (EGL_BAD_MATCH)
+2025-06-18 22:48:39.289  1799-2085  OpenGLRenderer          com.android.systemui                 W  Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fff58ddca80, error=EGL_BAD_MATCH
+2025-06-18 22:48:39.290  1799-2085  EGL_adreno              com.android.systemui                 D  eglMakeCurrent: 0x7fff68af2de0: ver 3 1 (tinfo 0x7fff68af4640)
+2025-06-18 22:48:39.319  1799-1799  StatusBar               com.android.systemui                 D  disable<e i a s b h r c s > disable2<q i n >
+2025-06-18 22:48:40.198  1644-2841  NotificationService     system_server                        W  Toast already killed. pkg=cn.nbmly.bookkeep callback=android.app.ITransientNotification$Stub$Proxy@d4b0db0
+2025-06-18 22:48:40.107  1799-1799  chatty                  com.android.systemui                 I  uid=10012(com.android.systemui) identical 1 line
+2025-06-18 22:48:40.181  1799-1799  StatusBar               com.android.systemui                 D  disable<e i a s b h r c s > disable2<q i n >
+2025-06-18 22:48:40.208  1799-2085  EGL_adreno              com.android.systemui                 D  eglMakeCurrent: 0x7fff68af2de0: ver 3 1 (tinfo 0x7fff68af4640)
+2025-06-18 22:48:40.221  1799-2085  EGL_adreno              com.android.systemui                 E  tid 2085: eglSurfaceAttrib(1346): error 0x3009 (EGL_BAD_MATCH)
+2025-06-18 22:48:40.221  1799-2085  OpenGLRenderer          com.android.systemui                 W  Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fff58ddca80, error=EGL_BAD_MATCH
+2025-06-18 22:48:40.224  1799-2085  EGL_adreno              com.android.systemui                 D  eglMakeCurrent: 0x7fff68af2de0: ver 3 1 (tinfo 0x7fff68af4640)
+2025-06-18 22:48:40.249  1644-1651  System                  system_server                        W  A resource failed to call close. 
+2025-06-18 22:48:40.249  1644-1651  chatty                  system_server                        I  uid=1000(system) FinalizerDaemon identical 37 lines
+2025-06-18 22:48:40.249  1644-1651  System                  system_server                        W  A resource failed to call close. 
+2025-06-18 22:48:40.335  1507-1585  SurfaceFlinger          surfaceflinger                       W  Attempting to destroy on removed layer: 9bc978b Toast#0
+2025-06-18 22:48:40.491  2981-3870  Conscrypt               com.google.android.gms               W  Could not set socket write timeout: java.net.SocketException: Socket closed
+2025-06-18 22:48:40.491  2981-3870  Conscrypt               com.google.android.gms               W  	at com.google.android.gms.org.conscrypt.Platform.setSocketWriteTimeout(:com.google.android.gms@251833017@25.18.33 (100800-756823100):219)
+2025-06-18 22:48:40.491  2981-3870  Conscrypt               com.google.android.gms               W  	at com.google.android.gms.org.conscrypt.ConscryptFileDescriptorSocket.setSoWriteTimeout(:com.google.android.gms@251833017@25.18.33 (100800-756823100):4)
+2025-06-18 22:48:40.867  1644-2841  NotificationService     system_server                        D  notify pkg=cn.nbmly.bookkeep pid=1644
+2025-06-18 22:48:40.868  1644-2841  NotificationService     system_server                        E  No Channel found for pkg=cn.nbmly.bookkeep, channelId=bookkeep_reminder, id=1001, tag=null, opPkg=cn.nbmly.bookkeep, callingUid=10103, userId=0, incomingUserId=0, notificationUid=10103, notification=Notification(channel=bookkeep_reminder pri=0 contentView=null vibrate=null sound=null defaults=0x0 flags=0x10 color=0x00000000 vis=PRIVATE)
+2025-06-18 22:48:40.869  4448-4448  System.err              cn.nbmly.bookkeep                    W  java.lang.Exception: Toast callstack! strTip=测试通知已发送
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.widget.Toast.show(Toast.java:143)
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at cn.nbmly.bookkeep.activities.NotificationSettingsActivity.testNotification(NotificationSettingsActivity.java:212)
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at cn.nbmly.bookkeep.activities.NotificationSettingsActivity.lambda$setupListeners$3$cn-nbmly-bookkeep-activities-NotificationSettingsActivity(NotificationSettingsActivity.java:116)
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at cn.nbmly.bookkeep.activities.NotificationSettingsActivity$$ExternalSyntheticLambda5.onClick(D8$$SyntheticClass:0)
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.view.View.performClick(View.java:6599)
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at com.google.android.material.button.MaterialButton.performClick(MaterialButton.java:1218)
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.view.View.performClickInternal(View.java:6576)
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.view.View.access$3100(View.java:780)
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.view.View$PerformClick.run(View.java:25899)
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.os.Handler.handleCallback(Handler.java:873)
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.os.Handler.dispatchMessage(Handler.java:99)
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.os.Looper.loop(Looper.java:193)
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at android.app.ActivityThread.main(ActivityThread.java:6840)
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at java.lang.reflect.Method.invoke(Native Method)
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:493)
+2025-06-18 22:48:40.870  4448-4448  System.err              cn.nbmly.bookkeep                    W  	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:860)
+2025-06-18 22:48:40.889  1505-1624  AudioFlinger            audioserver                          D  mixer(0xf3e03f40) throttle end: throttle time(5)
+2025-06-18 22:48:40.905  4448-4474  EGL_adreno              cn.nbmly.bookkeep                    E  tid 4474: eglSurfaceAttrib(1346): error 0x3009 (EGL_BAD_MATCH)
+2025-06-18 22:48:40.905  4448-4474  OpenGLRenderer          cn.nbmly.bookkeep                    W  Failed to set EGL_SWAP_BEHAVIOR on surface 0x7fff59da6d80, error=EGL_BAD_MATCH
+2025-06-18 22:48:40.909  4448-4474  EGL_adreno              cn.nbmly.bookkeep                    D  eglMakeCurrent: 0x7fff6a563ca0: ver 3 1 (tinfo 0x7fff6a50dd80)
+2025-06-18 22:48:41.710  1644-1668  WindowManager           system_server                        W  Unable to start animation, surface is null or no children.
+2025-06-18 22:48:41.797  4069-4131  chromium                com.google.android.gms.persistent    E  [0618/224841.797969:ERROR:net/socket/ssl_client_socket_impl.cc:877] handshake failed; returned -1, SSL error code 1, net_error -100
+2025-06-18 22:48:41.798  4069-4117  Auth                    com.google.android.gms.persistent    W  [TokenResponseCallback] TokenResponse failed with exception [CONTEXT service_id=343 ] (Ask Gemini)
+                                                                                                    cefp: Failed to process request
+                                                                                                    	at cefv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):23)
+                                                                                                    	at cejp.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):15)
+                                                                                                    	at cekd.onFailed(:com.google.android.gms@251833017@25.18.33 (100800-756823100):15)
+                                                                                                    	at m1.mg.onFailed(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):3)
+                                                                                                    	at m1.lh.run(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):16)
+                                                                                                    	at axmu.c(:com.google.android.gms@251833017@25.18.33 (100800-756823100):50)
+                                                                                                    	at axmu.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):70)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+                                                                                                    	at axsj.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):8)
+                                                                                                    	at java.lang.Thread.run(Thread.java:764)
+                                                                                                    Caused by: m1.lq: Exception in CronetUrlRequest: net::ERR_CONNECTION_CLOSED, ErrorCode=5, InternalErrorCode=-100, Retryable=true
+                                                                                                    	at org.chromium.net.impl.CronetUrlRequest.onError(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):3)
+2025-06-18 22:48:41.799  4069-4400  AuthPII                 com.google.android.gms.persistent    E  [RequestTokenManager] getToken() -> NETWORK_ERROR. App: com.google.android.gms, Service: oauth2:https://www.googleapis.com/auth/userinfo.email https://www.googleapis.com/auth/account.capabilities https://www.googleapis.com/auth/account.service_flags (Ask Gemini)
+                                                                                                    awir: Error when calling server using GmsNetworkStack.
+                                                                                                    	at zxx.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):1390)
+                                                                                                    	at zxv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):574)
+                                                                                                    	at zji.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):227)
+                                                                                                    	at zjj.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):23)
+                                                                                                    	at com.google.android.gms.auth.account.be.accountstate.GcmTaskChimeraService.f(:com.google.android.gms@251833017@25.18.33 (100800-756823100):235)
+                                                                                                    	at com.google.android.gms.auth.account.be.accountstate.GcmTaskChimeraService.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):129)
+                                                                                                    	at cenn.call(:com.google.android.gms@251833017@25.18.33 (100800-756823100):30)
+                                                                                                    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+                                                                                                    	at axmu.c(:com.google.android.gms@251833017@25.18.33 (100800-756823100):50)
+                                                                                                    	at axmu.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):70)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+                                                                                                    	at axsj.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):8)
+                                                                                                    	at java.lang.Thread.run(Thread.java:764)
+                                                                                                    Caused by: awir: Error requesting token.
+                                                                                                    	at zxx.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):212)
+                                                                                                    	at zxx.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):51)
+                                                                                                    	at zxv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):574) 
+                                                                                                    	at zji.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):227) 
+                                                                                                    	at zjj.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):23) 
+                                                                                                    	at com.google.android.gms.auth.account.be.accountstate.GcmTaskChimeraService.f(:com.google.android.gms@251833017@25.18.33 (100800-756823100):235) 
+                                                                                                    	at com.google.android.gms.auth.account.be.accountstate.GcmTaskChimeraService.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):129) 
+                                                                                                    	at cenn.call(:com.google.android.gms@251833017@25.18.33 (100800-756823100):30) 
+                                                                                                    	at java.util.concurrent.FutureTask.run(FutureTask.java:266) 
+                                                                                                    	at axmu.c(:com.google.android.gms@251833017@25.18.33 (100800-756823100):50) 
+                                                                                                    	at axmu.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):70) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) 
+                                                                                                    	at axsj.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):8) 
+                                                                                                    	at java.lang.Thread.run(Thread.java:764) 
+                                                                                                    Caused by: java.util.concurrent.ExecutionException: cefp: Failed to process request
+                                                                                                    	at faya.j(:com.google.android.gms@251833017@25.18.33 (100800-756823100):21)
+                                                                                                    	at fayj.v(:com.google.android.gms@251833017@25.18.33 (100800-756823100):107)
+                                                                                                    	at zxx.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):193)
+                                                                                                    	at zxx.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):51) 
+                                                                                                    	at zxv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):574) 
+                                                                                                    	at zji.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):227) 
+                                                                                                    	at zjj.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):23) 
+                                                                                                    	at com.google.android.gms.auth.account.be.accountstate.GcmTaskChimeraService.f(:com.google.android.gms@251833017@25.18.33 (100800-756823100):235) 
+                                                                                                    	at com.google.android.gms.auth.account.be.accountstate.GcmTaskChimeraService.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):129) 
+                                                                                                    	at cenn.call(:com.google.android.gms@251833017@25.18.33 (100800-756823100):30) 
+                                                                                                    	at java.util.concurrent.FutureTask.run(FutureTask.java:266) 
+                                                                                                    	at axmu.c(:com.google.android.gms@251833017@25.18.33 (100800-756823100):50) 
+                                                                                                    	at axmu.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):70) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) 
+                                                                                                    	at axsj.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):8) 
+                                                                                                    	at java.lang.Thread.run(Thread.java:764) 
+                                                                                                    Caused by: cefp: Failed to process request
+                                                                                                    	at cefv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):23)
+                                                                                                    	at cejp.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):15)
+                                                                                                    	at cekd.onFailed(:com.google.android.gms@251833017@25.18.33 (100800-756823100):15)
+                                                                                                    	at m1.mg.onFailed(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):3)
+                                                                                                    	at m1.lh.run(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):16)
+                                                                                                    	at axmu.c(:com.google.android.gms@251833017@25.18.33 (100800-756823100):50) 
+                                                                                                    	at axmu.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):70) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) 
+                                                                                                    	at axsj.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):8) 
+                                                                                                    	at java.lang.Thread.run(Thread.java:764) 
+                                                                                                    Caused by: m1.lq: Exception in CronetUrlRequest: net::ERR_CONNECTION_CLOSED, ErrorCode=5, InternalErrorCode=-100, Retryable=true
+                                                                                                    	at org.chromium.net.impl.CronetUrlRequest.onError(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):3)
+2025-06-18 22:48:41.799  4069-4400  AuthPII                 com.google.android.gms.persistent    E  Message is Error when calling server using GmsNetworkStack. (Ask Gemini)
+                                                                                                    awir: Error when calling server using GmsNetworkStack.
+                                                                                                    	at zxx.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):1390)
+                                                                                                    	at zxv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):574)
+                                                                                                    	at zji.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):227)
+                                                                                                    	at zjj.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):23)
+                                                                                                    	at com.google.android.gms.auth.account.be.accountstate.GcmTaskChimeraService.f(:com.google.android.gms@251833017@25.18.33 (100800-756823100):235)
+                                                                                                    	at com.google.android.gms.auth.account.be.accountstate.GcmTaskChimeraService.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):129)
+                                                                                                    	at cenn.call(:com.google.android.gms@251833017@25.18.33 (100800-756823100):30)
+                                                                                                    	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+                                                                                                    	at axmu.c(:com.google.android.gms@251833017@25.18.33 (100800-756823100):50)
+                                                                                                    	at axmu.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):70)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167)
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641)
+                                                                                                    	at axsj.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):8)
+                                                                                                    	at java.lang.Thread.run(Thread.java:764)
+                                                                                                    Caused by: awir: Error requesting token.
+                                                                                                    	at zxx.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):212)
+                                                                                                    	at zxx.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):51)
+                                                                                                    	at zxv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):574) 
+                                                                                                    	at zji.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):227) 
+                                                                                                    	at zjj.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):23) 
+                                                                                                    	at com.google.android.gms.auth.account.be.accountstate.GcmTaskChimeraService.f(:com.google.android.gms@251833017@25.18.33 (100800-756823100):235) 
+                                                                                                    	at com.google.android.gms.auth.account.be.accountstate.GcmTaskChimeraService.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):129) 
+                                                                                                    	at cenn.call(:com.google.android.gms@251833017@25.18.33 (100800-756823100):30) 
+                                                                                                    	at java.util.concurrent.FutureTask.run(FutureTask.java:266) 
+                                                                                                    	at axmu.c(:com.google.android.gms@251833017@25.18.33 (100800-756823100):50) 
+                                                                                                    	at axmu.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):70) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) 
+                                                                                                    	at axsj.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):8) 
+                                                                                                    	at java.lang.Thread.run(Thread.java:764) 
+                                                                                                    Caused by: java.util.concurrent.ExecutionException: cefp: Failed to process request
+                                                                                                    	at faya.j(:com.google.android.gms@251833017@25.18.33 (100800-756823100):21)
+                                                                                                    	at fayj.v(:com.google.android.gms@251833017@25.18.33 (100800-756823100):107)
+                                                                                                    	at zxx.d(:com.google.android.gms@251833017@25.18.33 (100800-756823100):193)
+                                                                                                    	at zxx.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):51) 
+                                                                                                    	at zxv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):574) 
+                                                                                                    	at zji.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):227) 
+                                                                                                    	at zjj.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):23) 
+                                                                                                    	at com.google.android.gms.auth.account.be.accountstate.GcmTaskChimeraService.f(:com.google.android.gms@251833017@25.18.33 (100800-756823100):235) 
+                                                                                                    	at com.google.android.gms.auth.account.be.accountstate.GcmTaskChimeraService.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):129) 
+                                                                                                    	at cenn.call(:com.google.android.gms@251833017@25.18.33 (100800-756823100):30) 
+                                                                                                    	at java.util.concurrent.FutureTask.run(FutureTask.java:266) 
+                                                                                                    	at axmu.c(:com.google.android.gms@251833017@25.18.33 (100800-756823100):50) 
+                                                                                                    	at axmu.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):70) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) 
+                                                                                                    	at axsj.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):8) 
+                                                                                                    	at java.lang.Thread.run(Thread.java:764) 
+                                                                                                    Caused by: cefp: Failed to process request
+                                                                                                    	at cefv.a(:com.google.android.gms@251833017@25.18.33 (100800-756823100):23)
+                                                                                                    	at cejp.b(:com.google.android.gms@251833017@25.18.33 (100800-756823100):15)
+                                                                                                    	at cekd.onFailed(:com.google.android.gms@251833017@25.18.33 (100800-756823100):15)
+                                                                                                    	at m1.mg.onFailed(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):3)
+                                                                                                    	at m1.lh.run(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):16)
+                                                                                                    	at axmu.c(:com.google.android.gms@251833017@25.18.33 (100800-756823100):50) 
+                                                                                                    	at axmu.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):70) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1167) 
+                                                                                                    	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:641) 
+                                                                                                    	at axsj.run(:com.google.android.gms@251833017@25.18.33 (100800-756823100):8) 
+                                                                                                    	at java.lang.Thread.run(Thread.java:764) 
+                                                                                                    Caused by: m1.lq: Exception in CronetUrlRequest: net::ERR_CONNECTION_CLOSED, ErrorCode=5, InternalErrorCode=-100, Retryable=true
+                                                                                                    	at org.chromium.net.impl.CronetUrlRequest.onError(:com.google.android.gms.dynamite_cronetdynamite@251833017@25.18.33 (100800-0):3)
+2025-06-18 22:48:41.799  4069-4400  Auth                    com.google.android.gms.persistent    W  [AccountStateSyncher] Unable to look up account state from server: couldn't fetch accessToken [CONTEXT service_id=343 ]
+2025-06-18 22:48:41.800  4069-4400  Auth                    com.google.android.gms.persistent    I  (REDACTED) [GcmTaskChimeraService] Sync reported at %s has status of %s.
+2025-06-18 22:48:41.807  4069-4400  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:41.815  4069-4069  BoundBrokerSvc          com.google.android.gms.persistent    D  onUnbind: Intent { act=com.google.android.gms.clearcut.service.START pkg=com.google.android.gms }
+2025-06-18 22:48:41.846  4069-4107  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:41.860  4069-4107  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:41.911  4069-4107  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:41.928  4069-4483  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:41.959  2981-2981  BoundBrokerSvc          com.google.android.gms               D  onBind: Intent { act=com.google.android.gms.significantplaces.service.SettingsLoggingService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+2025-06-18 22:48:41.959  2981-2981  BoundBrokerSvc          com.google.android.gms               D  Loading bound service for intent: Intent { act=com.google.android.gms.significantplaces.service.SettingsLoggingService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+2025-06-18 22:48:41.962  4069-4483  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:41.970  4069-4069  BoundBrokerSvc          com.google.android.gms.persistent    D  onBind: Intent { act=com.google.android.gms.trustagent.StateApi.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+2025-06-18 22:48:41.970  4069-4069  BoundBrokerSvc          com.google.android.gms.persistent    D  Loading bound service for intent: Intent { act=com.google.android.gms.trustagent.StateApi.START dat=chimera-action: cmp=com.google.android.gms/.chimera.PersistentApiService }
+2025-06-18 22:48:41.992  4069-4107  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) HousekeepingTask %s/%s finished executing. cause:%s result: %s elapsed_millis: %s uptime_millis: %s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:41.993  2981-2981  BoundBrokerSvc          com.google.android.gms               D  onUnbind: Intent { act=com.google.android.gms.significantplaces.service.SettingsLoggingService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.GmsInternalBoundBrokerService }
+2025-06-18 22:48:42.024  3056-3056  BoundBrokerSvc          com.google.android.gms.unstable      D  onBind: Intent { act=com.google.android.gms.droidguard.DroidGuardFastRefreshGmsTaskBoundService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.UnstableInternalBoundBrokerService }
+2025-06-18 22:48:42.024  3056-3056  BoundBrokerSvc          com.google.android.gms.unstable      D  Loading bound service for intent: Intent { act=com.google.android.gms.droidguard.DroidGuardFastRefreshGmsTaskBoundService.ACTION_TASK_READY dat=chimera-action: cmp=com.google.android.gms/.chimera.UnstableInternalBoundBrokerService }
+2025-06-18 22:48:42.025  4069-4107  NetworkScheduler.Stats  com.google.android.gms.persistent    I  (REDACTED) Task %s/%s started execution. cause:%s exec_start_elapsed_seconds: %s
+2025-06-18 22:48:42.875  4448-4474  EGL_adreno              cn.nbmly.bookkeep                    D  eglMakeCurrent: 0x7fff6a563ca0: ver 3 1 (tinfo 0x7fff6a50dd80)
+2025-06-18 22:48:42.877  1644-1655  NotificationService     system_server                        W  Toast already killed. pkg=cn.nbmly.bookkeep callback=android.app.ITransientNotification$Stub$Proxy@a24672f
+2025-06-18 22:48:43.021  1507-1585  SurfaceFlinger          surfaceflinger                       W  Attempting to destroy on removed layer: c04b76b Toast#0
+2025-06-18 22:48:43.938  1484-1625  audio_hw_hal            android.hardware.audio@2.0-service   D  log_func, out_standby
+2025-06-18 22:48:43.938  1484-1625  audio_hw_hal            android.hardware.audio@2.0-service   D  raw_close_output_stream, dev=0xf6818000, stream =0xf681b000
+2025-06-18 22:48:43.938  1484-1625  audio_hw_hal            android.hardware.audio@2.0-service   D  raw_close_output_stream, stream=0xf681b000,  success!

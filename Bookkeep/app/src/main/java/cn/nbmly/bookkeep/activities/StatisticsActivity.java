@@ -88,23 +88,26 @@ public class StatisticsActivity extends AppCompatActivity {
         barChart.setVisibility(View.GONE);
 
         List<Bill> bills = billDao.getAllBillsByUserId(loggedInUserId);
-        Map<Integer, Float> categoryExpenses = new HashMap<>();
-        String[] categories = getResources().getStringArray(R.array.expense_categories);
+        float totalExpenses = 0f;
+        float totalIncomes = 0f;
 
         for (Bill bill : bills) {
             if (bill.getType() == 0) { // 支出
-                int category = bill.getCategory();
-                float amount = (float) bill.getAmount();
-                categoryExpenses.put(category, categoryExpenses.getOrDefault(category, 0f) + amount);
+                totalExpenses += (float) bill.getAmount();
+            } else { // 收入
+                totalIncomes += (float) bill.getAmount();
             }
         }
 
         List<PieEntry> entries = new ArrayList<>();
-        for (Map.Entry<Integer, Float> entry : categoryExpenses.entrySet()) {
-            entries.add(new PieEntry(entry.getValue(), categories[entry.getKey()]));
+        if (totalExpenses > 0) {
+            entries.add(new PieEntry(totalExpenses, "总支出"));
+        }
+        if (totalIncomes > 0) {
+            entries.add(new PieEntry(totalIncomes, "总收入"));
         }
 
-        PieDataSet dataSet = new PieDataSet(entries, "按类别支出");
+        PieDataSet dataSet = new PieDataSet(entries, "总收支概览");
         dataSet.setColors(ColorTemplate.MATERIAL_COLORS);
         dataSet.setValueTextSize(12f);
         dataSet.setValueTextColor(Color.BLACK);
@@ -124,31 +127,60 @@ public class StatisticsActivity extends AppCompatActivity {
 
         List<Bill> bills = billDao.getAllBillsByUserId(loggedInUserId);
         Map<String, Float> monthlyExpenses = new HashMap<>();
+        Map<String, Float> monthlyIncomes = new HashMap<>();
         SimpleDateFormat monthFormat = new SimpleDateFormat("yyyy-MM", Locale.getDefault());
 
         for (Bill bill : bills) {
+            String month = monthFormat.format(bill.getCreateTime());
+            float amount = (float) bill.getAmount();
             if (bill.getType() == 0) { // 支出
-                String month = monthFormat.format(bill.getCreateTime());
-                float amount = (float) bill.getAmount();
                 monthlyExpenses.put(month, monthlyExpenses.getOrDefault(month, 0f) + amount);
+            } else { // 收入
+                monthlyIncomes.put(month, monthlyIncomes.getOrDefault(month, 0f) + amount);
             }
         }
 
-        List<BarEntry> entries = new ArrayList<>();
+        List<String> months = new ArrayList<>(monthlyExpenses.keySet());
+        for (String incomeMonth : monthlyIncomes.keySet()) {
+            if (!months.contains(incomeMonth)) {
+                months.add(incomeMonth);
+            }
+        }
+        months.sort(String::compareTo);
+
+        List<BarEntry> expenseEntries = new ArrayList<>();
+        List<BarEntry> incomeEntries = new ArrayList<>();
         List<String> labels = new ArrayList<>();
-        int i = 0;
-        for (Map.Entry<String, Float> entry : monthlyExpenses.entrySet()) {
-            entries.add(new BarEntry(i++, entry.getValue()));
-            labels.add(entry.getKey());
+
+        for (int i = 0; i < months.size(); i++) {
+            String month = months.get(i);
+            float expense = monthlyExpenses.getOrDefault(month, 0f);
+            float income = monthlyIncomes.getOrDefault(month, 0f);
+            expenseEntries.add(new BarEntry(i, expense));
+            incomeEntries.add(new BarEntry(i, income));
+            labels.add(month);
         }
 
-        BarDataSet dataSet = new BarDataSet(entries, "按月份支出");
-        dataSet.setColors(ColorTemplate.COLORFUL_COLORS);
-        dataSet.setValueTextSize(12f);
-        dataSet.setValueTextColor(Color.BLACK);
+        BarDataSet expenseDataSet = new BarDataSet(expenseEntries, "支出");
+        expenseDataSet.setColor(Color.RED); // 支出颜色
+        expenseDataSet.setValueTextSize(10f);
 
-        BarData data = new BarData(dataSet);
+        BarDataSet incomeDataSet = new BarDataSet(incomeEntries, "收入");
+        incomeDataSet.setColor(Color.GREEN); // 收入颜色
+        incomeDataSet.setValueTextSize(10f);
+
+        BarData data = new BarData(expenseDataSet, incomeDataSet);
+
+        // 设置柱状图组的宽度和间距
+        float groupSpace = 0.06f; // 组间距
+        float barSpace = 0.02f; // 每组内柱状条间距
+        float barWidth = 0.45f; // 每条柱状条的宽度
+        // (barWidth + barSpace) * 2 + groupSpace = 1.00 -> 0.45*2 + 0.02*2 + 0.06 =
+        // 0.90 + 0.04 + 0.06 = 1.00
+        data.setBarWidth(barWidth);
         barChart.setData(data);
+        barChart.groupBars(-0.5f, groupSpace, barSpace);
+
         barChart.getDescription().setEnabled(false);
         barChart.animateY(1000);
 
@@ -158,6 +190,7 @@ public class StatisticsActivity extends AppCompatActivity {
         xAxis.setGranularity(1f);
         xAxis.setDrawGridLines(false);
         xAxis.setLabelCount(labels.size());
+        xAxis.setCenterAxisLabels(true); // 使标签居中于组
 
         barChart.getAxisRight().setEnabled(false);
         barChart.invalidate();
@@ -179,4 +212,3 @@ public class StatisticsActivity extends AppCompatActivity {
         billDao.close();
     }
 }
-
